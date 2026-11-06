@@ -1,0 +1,2 @@
+mode=1 applied=0 thread=23964 error=0x00000000 size=0.00x0.00 DIP app=40132 explorer=32036 attach=0x00000000 panel=1 lifecycle=0 revision=72/72
+session=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=32036 taskbar=found

@@ -1,6 +1,60 @@
 #pragma once
 // Includes real event bindings, window dispatch, process waits and cleanup.
 unsigned legacyTicks=0;
+// A deterministic diagnostics cache drives the real Watcher callback against a
+// loaded Island. Handles can disappear between enumeration and resolution.
+struct DiagnosticsCacheFixture : winrt::implements<DiagnosticsCacheFixture,IXamlDiagnostics> {
+    XamlObject value{nullptr};
+    HRESULT result=S_OK;
+    unsigned resolutions=0;
+    HRESULT STDMETHODCALLTYPE GetIInspectableFromHandle(InstanceHandle,::IInspectable** object) noexcept override {
+        if(!object)return E_POINTER;
+        *object=nullptr;++resolutions;
+        if(FAILED(result))return result;
+        return value.as(__uuidof(::IInspectable),reinterpret_cast<void**>(object));
+    }
+    HRESULT STDMETHODCALLTYPE GetDispatcher(::IInspectable**) noexcept override{return E_NOTIMPL;}
+    HRESULT STDMETHODCALLTYPE GetUiLayer(::IInspectable**) noexcept override{return E_NOTIMPL;}
+    HRESULT STDMETHODCALLTYPE GetApplication(::IInspectable**) noexcept override{return E_NOTIMPL;}
+    HRESULT STDMETHODCALLTYPE GetHandleFromIInspectable(::IInspectable*,InstanceHandle*) noexcept override{return E_NOTIMPL;}
+    HRESULT STDMETHODCALLTYPE HitTest(RECT,unsigned int*,InstanceHandle**) noexcept override{return E_NOTIMPL;}
+    HRESULT STDMETHODCALLTYPE RegisterInstance(::IInspectable*,InstanceHandle*) noexcept override{return E_NOTIMPL;}
+    HRESULT STDMETHODCALLTYPE GetInitializationData(BSTR*) noexcept override{return E_NOTIMPL;}
+};
+
+void VerifyDiagnosticCache(Controller& engine,controls::Grid const& root,NativeTray::State* state) {
+    struct CallbackScope {
+        Controller* previous=controller;
+        uint64_t previousGeneration=desiredGeneration.load();
+        ~CallbackScope(){controller=previous;desiredGeneration=previousGeneration;}
+    } scope;
+    controller=&engine;desiredGeneration=engine.generation;
+    auto cache=winrt::make_self<DiagnosticsCacheFixture>();cache->value=root;
+    auto watcher=winrt::make_self<Watcher>(cache.as<IXamlDiagnostics>(),engine.generation);
+    auto notify=[&](InstanceHandle handle){
+        VisualElement element{};element.Handle=handle;element.Type=SysAllocString(L"SystemTray.NotifyIconView");
+        winrt::check_bool(element.Type!=nullptr);
+        winrt::check_hresult(watcher->OnVisualTreeChange({},element,Add));PumpFor(80);
+    };
+    cache->result=HRESULT_FROM_WIN32(ERROR_NOT_FOUND);notify(700);
+    Require(engine.Live()&&state->lifecycle==NativeTray::Ready&&state->applied==1&&state->callbackErrors==0,
+        "an expired diagnostics handle does not disable a healthy decoration");
+    engine.Remove(1);PumpFor(80);
+    Require(state->lifecycle==NativeTray::Connecting&&state->applied==0,"removing the owner enters event-driven discovery");
+    notify(701);
+    Require(engine.Live()&&state->lifecycle==NativeTray::Connecting&&state->callbackErrors==0,
+        "expired handles during discovery do not abort the subscription");
+    cache->result=S_OK;notify(702);
+    Require(state->applied==1&&root.Width()==44,"a valid Add after an expired handle still discovers the real XAML owner");
+    const auto resolved=cache->resolutions;
+    desiredGeneration=engine.generation+1;notify(703);desiredGeneration=engine.generation;
+    Require(cache->resolutions==resolved&&state->applied==1,"stale subscription callbacks never resolve objects in a new generation");
+    cache->result=E_ACCESSDENIED;notify(704);
+    Require(!engine.Live()&&state->lifecycle==NativeTray::Faulted&&state->lastError==E_ACCESSDENIED&&state->applied==0&&state->subscriptions==0,
+        "unexpected diagnostics failures remain contained and restore the original owner");
+    winrt::check_bool(engine.Connect(1001));engine.Add(1,root);PumpFor(150);
+}
+
 LRESULT CALLBACK LegacyWindowProc(HWND window,UINT message,WPARAM wp,LPARAM lp) noexcept {
     if(message==WM_TIMER){++legacyTicks;return 0;}
     return DefWindowProcW(window,message,wp,lp);
@@ -30,6 +84,7 @@ void VerifyEventController(){
         Controller engine;engine.matchForTest=[root](auto const& candidate){return candidate==root;};
         auto send=[&]{NativeTray::Publish(*state,wanted);PostMessageW(engine.timerWindow,NativeTray::StateMessage(),771,0);PumpFor(150);};
         winrt::check_bool(engine.Connect(1001));engine.Add(1,root);PumpFor(250);
+        VerifyDiagnosticCache(engine,root,state);
         Require(legacyTicks>0,"a new framework session leaves legacy application timers untouched");
         Require(state->applied==1&&state->acknowledgedRevision==1&&root.Width()==44,"event controller applies the initial request without polling");
         const auto idle=state->refreshes;PumpFor(200);

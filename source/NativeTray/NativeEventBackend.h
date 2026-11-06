@@ -45,6 +45,9 @@ struct Controller {
     bool Live() const noexcept{return state&&NativeTray::Read64(state->session)==static_cast<LONG64>(session);}
     void Count(volatile LONG64 NativeTray::State::*field) noexcept {if(Live())InterlockedIncrement64(&(state->*field));}
     static bool TrayThread() noexcept {
+#ifdef NATIVE_TRAY_SELFTEST
+        if(controller&&controller->matchForTest)return true;
+#endif
         HWND bar=FindWindowW(L"Shell_TrayWnd",nullptr);
         HWND bridge=FindWindowExW(bar,nullptr,L"Windows.UI.Composition.DesktopWindowContentBridge",nullptr);
         return GetCurrentThreadId()==GetWindowThreadProcessId(bridge ? bridge : bar,nullptr);
@@ -129,7 +132,10 @@ struct Controller {
         session=0;queued=false;dirty=0;
         if(unsubscribe)Subscription(false,generation);
     }
-    void Fail(HRESULT error) noexcept {
+    void Fail(HRESULT error,wchar_t const* stage=L"window-dispatch") noexcept {
+        wchar_t failure[192]{};
+        swprintf_s(failure,L"Native backend failure stage=%s HRESULT=0x%08lX",stage,static_cast<unsigned long>(error));
+        Log(failure);
         Count(&NativeTray::State::callbackErrors);
         blocked=true;Disconnect(true,true,error);actualWidth=0;actualHeight=0;
         Log(L"Native backend disabled after callback failure");
@@ -305,7 +311,7 @@ struct Controller {
         if(stopping||blocked||busy)return;
         busy=true;LARGE_INTEGER start{},end{};QueryPerformanceCounter(&start);
         try{Refresh(flags);}
-        catch(...){Fail(winrt::to_hresult());}
+        catch(...){Fail(winrt::to_hresult(),L"refresh");}
         QueryPerformanceCounter(&end);
         if(Live()){
             InterlockedIncrement64(&state->refreshes);InterlockedAdd64(&state->updateTicks,end.QuadPart-start.QuadPart);
@@ -344,9 +350,11 @@ struct Watcher : winrt::implements<Watcher,IVisualTreeServiceCallback2> {
     const uint64_t generation;
     std::atomic_bool stopped{false};
     std::atomic_bool advised{false};
+    bool loggedExpiredHandle=false; // Accessed only on the tray XAML thread.
     Watcher(winrt::com_ptr<IXamlDiagnostics> d,uint64_t token):diagnostics(std::move(d)),generation(token){}
     HRESULT STDMETHODCALLTYPE OnVisualTreeChange(ParentChildRelation,VisualElement element,VisualMutationType mutation) noexcept override {
         std::unique_ptr<wchar_t,decltype(&SysFreeString)> name(element.Name,SysFreeString),type(element.Type,SysFreeString),file(element.SrcInfo.FileName,SysFreeString),hash(element.SrcInfo.Hash,SysFreeString);
+        wchar_t const* stage=L"visual-tree-connect";
         try{
             if(stopped||generation!=desiredGeneration.load()||!Controller::TrayThread())return S_OK;
             const std::wstring_view kind=type ? std::wstring_view(type.get()):std::wstring_view{};
@@ -356,11 +364,23 @@ struct Watcher : winrt::implements<Watcher,IVisualTreeServiceCallback2> {
             if(controller->busy)return S_OK;
             if(mutation==Remove){controller->Remove(element.Handle);return S_OK;}
             if(mutation!=Add || (kind!=L"Windows.UI.Xaml.Hosting.DesktopWindowXamlSource"&&kind!=L"SystemTray.NotifyIconView"))return S_OK;
-            XamlObject object{nullptr};winrt::check_hresult(diagnostics->GetIInspectableFromHandle(element.Handle,reinterpret_cast<::IInspectable**>(winrt::put_abi(object))));
+            stage=L"visual-tree-resolve-handle";
+            XamlObject object{nullptr};
+            const HRESULT resolved=diagnostics->GetIInspectableFromHandle(element.Handle,reinterpret_cast<::IInspectable**>(winrt::put_abi(object)));
+            // Enumeration can outlive a Diagnostics cache entry. A disappearing
+            // element is local to this handle, not a failed tray subscription.
+            // Preserve fault containment for every other resolution failure.
+            if(resolved==HRESULT_FROM_WIN32(ERROR_NOT_FOUND)){
+                controller->Remove(element.Handle);
+                if(!loggedExpiredHandle){Log(L"Skipped expired XAML diagnostics handle; discovery remains active");loggedExpiredHandle=true;}
+                return S_OK;
+            }
+            winrt::check_hresult(resolved);
+            stage=L"visual-tree-watch-element";
             if(auto source=object.try_as<wux::Hosting::DesktopWindowXamlSource>())controller->sources.emplace_back(source);
             if(kind==L"SystemTray.NotifyIconView")if(auto view=object.try_as<wux::FrameworkElement>())controller->Add(element.Handle,view);
             return S_OK;
-        }catch(...){if(controller)controller->Fail(winrt::to_hresult());return S_OK;}
+        }catch(...){if(controller)controller->Fail(winrt::to_hresult(),stage);return S_OK;}
     }
     HRESULT STDMETHODCALLTYPE OnElementStateChanged(InstanceHandle,VisualElementState,LPCWSTR) noexcept override{return S_OK;}
 };

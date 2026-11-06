@@ -1,0 +1,3 @@
+PASS version role runs without a UI
+PASS patch is applied in the real shell without a callback failure
+FAIL combined mode and width are applied to the intended presentation

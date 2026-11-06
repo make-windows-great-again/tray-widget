@@ -10,6 +10,9 @@ Settings и Date собраны в отдельную статическую `Sh
 пока нет. Открытые пункты и результаты проверок сохранены вместе с кодом.
 
 Скачать runtime и SDK: [v16](https://github.com/make-windows-great-again/tray-widget/releases/tag/v16).
+В `main` после v16 исправлена обработка исчезнувших XAML Diagnostics handles в
+patch DLL. Это исправление ещё не входит в архивы v16; результаты проверки —
+в [отчёте повторного подключения](evidence/reconnect-20261106/REPORT.txt).
 
 ## Сборка
 

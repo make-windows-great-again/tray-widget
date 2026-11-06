@@ -1,0 +1,37 @@
+{
+  "Timestamp": "2026-11-06T10:41:14.2718200-08:00",
+  "Status": "mode=2 applied=2 thread=23964 error=0x00000000 size=88.00x48.00 DIP app=40544 explorer=32036 attach=0x00000000 panel=0 lifecycle=2 revision=3/3\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=32036 taskbar=found",
+  "Profile": {
+    "session": 134384644833111418,
+    "connection": 258,
+    "revision": 3,
+    "appliedRevision": 3,
+    "lifecycle": 2,
+    "pollingTimers": 0,
+    "tooltipTimer": 0,
+    "subscriptions": 27,
+    "refreshes": 6,
+    "notifications": 1,
+    "pointerEvents": 0,
+    "chromeUpdates": 4,
+    "tooltipOpens": 0,
+    "callbackErrors": 0,
+    "updateTicks": 35932,
+    "maxUpdateTicks": 32815,
+    "qpcFrequency": 10000000
+  },
+  "Explorer": 32036,
+  "SameExplorer": true,
+  "ExeSHA256": "96FF2B5FB3690EB09758FAEC8709CB84CCE35DB8D09DEF8CBB6A212F86378A32",
+  "PatchSHA256": "60AB97F72EC7F2DB38F9512182768A4A948D279BCBF1D53910A753BCC7E46EEE",
+  "SettingsSHA256": "AE37618E8835E3052BE19902B84A7C3AAB2215DEF269A44E9E12F857CD8E4BDD",
+  "SettingsUnchanged": true,
+  "Dpi": 144,
+  "AppsUseLightTheme": 1,
+  "SystemUsesLightTheme": 1,
+  "Transparency": 1,
+  "RuntimeFiles": [
+    "YataNativeFramework.exe",
+    "YataNativeFramework.Patch.dll"
+  ]
+}

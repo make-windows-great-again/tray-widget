@@ -1,0 +1,20 @@
+{
+  "Scenario": "EXE restart with same Explorer and diagnostic patch",
+  "ExplorerBefore": 35236,
+  "ExplorerAfter": 35236,
+  "Status": "mode=2 applied=2 thread=10272 error=0x00000000 size=88.00x48.00 DIP app=40368 explorer=35236 attach=0x00000000 panel=0 lifecycle=2 revision=3/3\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=35236 taskbar=found",
+  "PatchLog": [
+    "10:21:24 pid=35236 tid=10272 Native checked chrome: live fill resources=3",
+    "10:21:24 pid=35236 tid=10272 Native tooltip palette: live brushes=3",
+    "10:21:24 pid=35236 tid=10272 Match: GUID=2099,1528,2231,1600 native=2099.000000,1528.000000,132.000000,72.000000",
+    "10:21:46 pid=35236 tid=10272 Match: GUID=2183,1528,2231,1600 native=2183.000000,1528.000000,48.000000,72.000000",
+    "10:21:46 pid=35236 tid=10272 Clock typography family=Segoe UI Variable size=12.000000",
+    "10:21:46 pid=35236 tid=10272 Native checked chrome: live fill resources=3",
+    "10:21:46 pid=35236 tid=10272 Native tooltip palette: live brushes=3",
+    "10:21:46 pid=35236 tid=10272 Applied mode=2 requestedWidth=88 name=Yata Native Framework",
+    "Windows controls",
+    "10:21:46 pid=35236 tid=10272 Native checked chrome: live fill resources=3",
+    "10:21:46 pid=35236 tid=10272 Native tooltip palette: live brushes=3",
+    "10:21:46 pid=35236 tid=10272 Match: GUID=2099,1528,2231,1600 native=2099.000000,1528.000000,132.000000,72.000000"
+  ]
+}

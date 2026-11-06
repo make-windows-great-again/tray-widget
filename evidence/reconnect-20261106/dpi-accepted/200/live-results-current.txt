@@ -1,0 +1,37 @@
+PASS version role runs without a UI
+PASS patch is applied in the real shell without a callback failure
+PASS combined mode and width are applied to the intended presentation
+PASS reversed option order preserves the other presentation width
+PASS invalid CLI leaves the request unchanged: --width abc
+PASS invalid CLI leaves the request unchanged: --width -1
+PASS invalid CLI leaves the request unchanged: --width 31
+PASS invalid CLI leaves the request unchanged: --width 321
+PASS invalid CLI leaves the request unchanged: --width 88junk
+PASS invalid CLI leaves the request unchanged: --width 4294967296
+PASS invalid CLI leaves the request unchanged: --width
+PASS invalid CLI leaves the request unchanged: --status --controls
+PASS detach 1 releases subscriptions and timers
+PASS detach 2 releases subscriptions and timers
+PASS detach 3 releases subscriptions and timers
+PASS detach 4 releases subscriptions and timers
+PASS detach 5 releases subscriptions and timers
+PASS detach 6 releases subscriptions and timers
+PASS detach 7 releases subscriptions and timers
+PASS detach 8 releases subscriptions and timers
+PASS detach 9 releases subscriptions and timers
+PASS detach 10 releases subscriptions and timers
+PASS detach 11 releases subscriptions and timers
+PASS detach 12 releases subscriptions and timers
+PASS detach 13 releases subscriptions and timers
+PASS detach 14 releases subscriptions and timers
+PASS detach 15 releases subscriptions and timers
+PASS detach 16 releases subscriptions and timers
+PASS detach 17 releases subscriptions and timers
+PASS detach 18 releases subscriptions and timers
+PASS detach 19 releases subscriptions and timers
+PASS detach 20 releases subscriptions and timers
+PASS fault restores native content and releases session resources
+PASS idle backend has no periodic timer
+PASS crash test targets only the process started by this test
+PASS new process reconnects to the inactive broker
+ALL LIVE FRAMEWORK CHECKS PASSED

@@ -1,0 +1,19 @@
+[
+  {
+    "Scale": 100,
+    "Status": "mode=2 applied=2 thread=10272 error=0x00000000 size=88.00x48.00 DIP app=33636 explorer=35236 attach=0x00000000 panel=0 lifecycle=2 revision=6/6\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=35236 taskbar=found"
+  },
+  {
+    "Scale": 200,
+    "Status": "mode=2 applied=0 thread=10272 error=0x00000000 size=0.00x0.00 DIP app=33636 explorer=35236 attach=0x00000000 panel=0 lifecycle=1 revision=9/9\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=35236 taskbar=found"
+  },
+  {
+    "Scale": 150,
+    "Status": "mode=2 applied=2 thread=10272 error=0x00000000 size=88.00x48.00 DIP app=33636 explorer=35236 attach=0x00000000 panel=0 lifecycle=2 revision=12/12\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=35236 taskbar=found"
+  },
+  {
+    "Scale": 150,
+    "Status": "mode=2 applied=2 thread=10272 error=0x00000000 size=88.00x48.00 DIP app=34900 explorer=35236 attach=0x00000000 panel=0 lifecycle=2 revision=3/3\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=35236 taskbar=found",
+    "Scenario": "Restart after DPI changes"
+  }
+]

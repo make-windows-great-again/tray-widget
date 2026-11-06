@@ -1,0 +1,14 @@
+{
+  "Timestamp": "2026-11-06T10:36:26.9470271-08:00",
+  "OldExplorer": 35236,
+  "Explorer": [
+    32036
+  ],
+  "AppPid": 36004,
+  "Before": "mode=2 applied=2 thread=10272 error=0x00000000 size=88.00x48.00 DIP app=34900 explorer=35236 attach=0x00000000 panel=0 lifecycle=2 revision=21/21\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=35236 taskbar=found",
+  "Status": "mode=2 applied=0 thread=0 error=0x00000000 size=0.00x0.00 DIP app=36004 explorer=0 attach=0x80004005 panel=0 lifecycle=0 revision=0/2\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=32036 taskbar=found",
+  "PatchSHA256": "60AB97F72EC7F2DB38F9512182768A4A948D279BCBF1D53910A753BCC7E46EEE",
+  "SettingsUnchanged": true,
+  "RestoredFolderCount": 2,
+  "Backup": "C:\\Users\\Yata\\Desktop\\Download\\project\\artifacts\\reconnect-backup-20261106-183616"
+}

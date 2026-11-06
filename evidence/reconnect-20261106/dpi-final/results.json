@@ -1,0 +1,33 @@
+{
+  "Explorer": 32036,
+  "PatchSHA256": "60AB97F72EC7F2DB38F9512182768A4A948D279BCBF1D53910A753BCC7E46EEE",
+  "InitialScale": 150,
+  "FinalDpi": 144,
+  "SettingsUnchanged": true,
+  "Results": [
+    {
+      "Scale": 100,
+      "Dpi": 96,
+      "Pass": 36,
+      "SameExplorer": true
+    },
+    {
+      "Scale": 150,
+      "Dpi": 144,
+      "Pass": 36,
+      "SameExplorer": true
+    },
+    {
+      "Scale": 200,
+      "Dpi": 192,
+      "Pass": 36,
+      "SameExplorer": true
+    },
+    {
+      "Scale": 250,
+      "Dpi": 240,
+      "Pass": 36,
+      "SameExplorer": true
+    }
+  ]
+}

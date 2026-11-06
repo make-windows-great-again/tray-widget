@@ -1,0 +1,42 @@
+{
+  "Seconds": 1,
+  "Before": {
+    "session": 134384642536878018,
+    "connection": 140,
+    "revision": 72,
+    "appliedRevision": 72,
+    "lifecycle": 2,
+    "pollingTimers": 0,
+    "tooltipTimer": 0,
+    "subscriptions": 27,
+    "refreshes": 102,
+    "notifications": 48,
+    "pointerEvents": 0,
+    "chromeUpdates": 58,
+    "tooltipOpens": 0,
+    "callbackErrors": 1,
+    "updateTicks": 853624,
+    "maxUpdateTicks": 53467,
+    "qpcFrequency": 10000000
+  },
+  "After": {
+    "session": 134384642536878018,
+    "connection": 140,
+    "revision": 72,
+    "appliedRevision": 72,
+    "lifecycle": 2,
+    "pollingTimers": 0,
+    "tooltipTimer": 0,
+    "subscriptions": 27,
+    "refreshes": 108,
+    "notifications": 48,
+    "pointerEvents": 0,
+    "chromeUpdates": 63,
+    "tooltipOpens": 0,
+    "callbackErrors": 1,
+    "updateTicks": 867501,
+    "maxUpdateTicks": 53467,
+    "qpcFrequency": 10000000
+  },
+  "RefreshDelta": 6
+}

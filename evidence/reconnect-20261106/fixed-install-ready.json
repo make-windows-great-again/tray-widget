@@ -1,0 +1,6 @@
+{
+  "Status": "mode=2 applied=2 thread=23964 error=0x00000000 size=88.00x48.00 DIP app=36004 explorer=32036 attach=0x00000000 panel=0 lifecycle=2 revision=4/4\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=32036 taskbar=found",
+  "PatchSHA256": "60AB97F72EC7F2DB38F9512182768A4A948D279BCBF1D53910A753BCC7E46EEE",
+  "Explorer": 32036,
+  "Note": "Initial 4.5 second sample was too early; notify-icon registration retried and attachment completed without another Explorer restart"
+}

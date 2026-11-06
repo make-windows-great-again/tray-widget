@@ -1,0 +1,51 @@
+ShellPanels.cpp
+NativeTrayTap.cpp
+   Creating library C:\Users\Yata\Desktop\Download\project\artifacts\obj\Release\YataNativeFramework.Patch.lib and object C:\Users\Yata\Desktop\Download\project\artifacts\obj\Release\YataNativeFramework.Patch.exp
+TrayStub.cpp
+NativeTraySelfTest.cpp
+PASS VPN reserves 44 DIP
+PASS a single owned tooltip is registered above the decorated icon
+PASS tooltip is anchored to the complete tray button
+PASS tooltip keeps native caption typography and padding
+PASS tooltip inherits the shell palette from its owner resource scope
+PASS label uses a real XAML TextBlock
+PASS native ContentGrid identity and transform target are preserved
+PASS replacement leaves pointer handling to outer control
+PASS VPN measures and arranges at 44 DIP
+PASS speed mode reserves 104 DIP
+PASS speed mode contains two text rows
+PASS caption metrics and separate direction/number/unit columns
+PASS numeric column uses tabular figures
+PASS native presenter foreground propagates to custom text
+PASS open panel owns a separate selected background without intercepting clicks
+PASS selected normal hover and pressed states have separate native brushes
+PASS closing restores native hover chrome and foreground
+PASS repeated open close retains the original native highlight
+PASS original tooltip is restored on mode restoration
+PASS original content object is restored
+PASS original ContentGrid children are restored
+PASS original local dimensions and unset values are restored
+PASS original alignment local value is restored
+PASS arbitrary requested native width is applied
+PASS automatic width follows XAML measurement
+PASS automatic width grows with the text content
+PASS unrelated element stays unchanged
+PASS original Content binding is restored
+PASS repeated mode switches retain the original binding
+PASS owned tooltip opens without an automatic pointer placement
+tooltip width=44 DIP anchorTop=1528 popup=2087,1441,2301,1511
+PASS opening a loaded tooltip creates exactly one visible native popup
+PASS visible tooltip including its shadow stays above the taskbar in the work area
+PASS tooltip remains centered over the complete tray button
+PASS owned tooltip opens without an automatic pointer placement
+tooltip width=88 DIP anchorTop=1528 popup=2120,1441,2334,1511
+PASS opening a loaded tooltip creates exactly one visible native popup
+PASS visible tooltip including its shadow stays above the taskbar in the work area
+PASS tooltip remains centered over the complete tray button
+PASS owned tooltip opens without an automatic pointer placement
+tooltip width=160 DIP anchorTop=1528 popup=2174,1441,2388,1511
+PASS opening a loaded tooltip creates exactly one visible native popup
+PASS visible tooltip including its shadow stays above the taskbar in the work area
+PASS tooltip remains centered over the complete tray button
+PASS controller fixture uses a loaded real XAML owner
+FAIL an expired diagnostics handle does not disable a healthy decoration
