@@ -1,5 +1,7 @@
 # tray-widget
 
+я манал этих ИИ агентов, нахрена он спиздил XAML хотя есть WinUI? Скоро будет большой rework ебать
+
 Нативный C++20 / C++/WinRT каркас для панелей и элементов управления Windows 11.
 Исходный runtime на Windows.UI.Xaml состоит из **одного EXE и одного patch DLL**. Схемы Language, Quick
 Settings и Date собраны в отдельную статическую `ShellPanels.lib`; пример
