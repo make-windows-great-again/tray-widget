@@ -1,0 +1,41 @@
+HostChecks.cpp
+PASS independent consumer creates a native host
+PASS scheme reaches Open after composition completion
+PASS tray press retains the visible surface until release
+PASS tray release starts an exit animation
+PASS tray release completes exactly one close
+PASS foreign activation keeps surface alive during exit
+PASS outside activation reaches Closed
+PASS dismiss during entrance cannot resurrect the panel
+PASS scheme reaches Open after composition completion
+PASS tray press retains the visible surface until release
+PASS tray release starts an exit animation
+PASS tray release completes exactly one close
+PASS foreign activation keeps surface alive during exit
+PASS outside activation reaches Closed
+PASS dismiss during entrance cannot resurrect the panel
+PASS scheme reaches Open after composition completion
+PASS tray press retains the visible surface until release
+PASS tray release starts an exit animation
+PASS tray release completes exactly one close
+PASS foreign activation keeps surface alive during exit
+PASS outside activation reaches Closed
+PASS dismiss during entrance cannot resurrect the panel
+PASS live model updates do not echo application commands
+PASS live state update preserves the open panel
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS custom content retains its real UI Automation peer
+PASS UI Automation invokes the client action once
+MEASURE cycles=100 private_before=65724416 private_after=65556480 gdi_before=7 gdi_after=7
+PASS 100 cycles stay within the bounded memory allowance
+PASS 100 cycles do not accumulate GDI handles
+MEASURE idle_cpu_one_core_percent=0.000
+MEASURE visibility_callbacks=238
+PASS visibility transitions are delivered to the consuming application

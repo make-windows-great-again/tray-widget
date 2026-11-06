@@ -1,0 +1,42 @@
+[
+  {
+    "Case": "tray-light",
+    "MenuHeightDip": 229.33333,
+    "ItemHeightDip": 27.333334,
+    "FontDip": 14,
+    "Background": "acrylic:tint=#FFFCFCFC tintOpacity=0.000000 fallback=#FFF9F9F9 alwaysFallback=false",
+    "File": [
+      "tray-light-2689936.png"
+    ]
+  },
+  {
+    "Case": "tray-dark",
+    "MenuHeightDip": 229.33333,
+    "ItemHeightDip": 27.333334,
+    "FontDip": 14,
+    "Background": "acrylic:tint=#FF2C2C2C tintOpacity=0.150000 fallback=#FF2C2C2C alwaysFallback=false",
+    "File": [
+      "tray-dark-2885898.png"
+    ]
+  },
+  {
+    "Case": "tray-light-text200",
+    "MenuHeightDip": 248,
+    "ItemHeightDip": 46,
+    "FontDip": 28,
+    "Background": "acrylic:tint=#FFFCFCFC tintOpacity=0.000000 fallback=#FFF9F9F9 alwaysFallback=false",
+    "File": [
+      "tray-light-text200-2689936.png"
+    ]
+  },
+  {
+    "Case": "tray-dark-text200",
+    "MenuHeightDip": 248,
+    "ItemHeightDip": 46,
+    "FontDip": 28,
+    "Background": "acrylic:tint=#FF2C2C2C tintOpacity=0.150000 fallback=#FF2C2C2C alwaysFallback=false",
+    "File": [
+      "tray-dark-text200-2885898.png"
+    ]
+  }
+]

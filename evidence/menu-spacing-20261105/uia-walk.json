@@ -1,0 +1,153 @@
+[
+  {
+    "Depth": 0,
+    "Name": "PopupHost",
+    "Class": "Xaml_WindowedPopupClass",
+    "Type": "ControlType.Pane",
+    "Height": 0.0
+  },
+  {
+    "Depth": 1,
+    "Name": "Popup",
+    "Class": "Popup",
+    "Type": "ControlType.Window",
+    "Height": "-Infinity"
+  },
+  {
+    "Depth": 2,
+    "Name": "",
+    "Class": "MenuFlyout",
+    "Type": "ControlType.Menu",
+    "Height": 351.0
+  },
+  {
+    "Depth": 3,
+    "Name": "Открыть панель",
+    "Class": "MenuFlyoutItem",
+    "Type": "ControlType.MenuItem",
+    "Height": 42.0
+  },
+  {
+    "Depth": 4,
+    "Name": "Открыть панель",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 28.0
+  },
+  {
+    "Depth": 3,
+    "Name": "Элементы управления",
+    "Class": "MenuFlyoutItem",
+    "Type": "ControlType.MenuItem",
+    "Height": 42.0
+  },
+  {
+    "Depth": 4,
+    "Name": "Элементы управления",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 28.0
+  },
+  {
+    "Depth": 3,
+    "Name": "Подпись",
+    "Class": "ToggleMenuFlyoutItem",
+    "Type": "ControlType.MenuItem",
+    "Height": 42.0
+  },
+  {
+    "Depth": 4,
+    "Name": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 24.0
+  },
+  {
+    "Depth": 4,
+    "Name": "Подпись",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 27.0
+  },
+  {
+    "Depth": 3,
+    "Name": "Две строки (пример)",
+    "Class": "ToggleMenuFlyoutItem",
+    "Type": "ControlType.MenuItem",
+    "Height": 41.0
+  },
+  {
+    "Depth": 4,
+    "Name": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 24.0
+  },
+  {
+    "Depth": 4,
+    "Name": "Две строки (пример)",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 27.0
+  },
+  {
+    "Depth": 3,
+    "Name": "Обычный значок",
+    "Class": "ToggleMenuFlyoutItem",
+    "Type": "ControlType.MenuItem",
+    "Height": 41.0
+  },
+  {
+    "Depth": 4,
+    "Name": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 24.0
+  },
+  {
+    "Depth": 4,
+    "Name": "Обычный значок",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 28.0
+  },
+  {
+    "Depth": 3,
+    "Name": "Ширина: 88 DIP",
+    "Class": "MenuFlyoutSubItem",
+    "Type": "ControlType.MenuItem",
+    "Height": 42.0
+  },
+  {
+    "Depth": 4,
+    "Name": "Ширина: 88 DIP",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 28.0
+  },
+  {
+    "Depth": 4,
+    "Name": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 18.0
+  },
+  {
+    "Depth": 3,
+    "Name": "Выход",
+    "Class": "MenuFlyoutItem",
+    "Type": "ControlType.MenuItem",
+    "Height": 42.0
+  },
+  {
+    "Depth": 4,
+    "Name": "Выход",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "Height": 28.0
+  },
+  {
+    "Depth": 0,
+    "ChildError": "Exception calling \"GetNextSibling\" with \"1\" argument(s): \"Catastrophic failure (0x8000FFFF (E_UNEXPECTED))\""
+  }
+]

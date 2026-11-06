@@ -1,0 +1,9 @@
+{
+  "AppPid": 8548,
+  "Status": "mode=2 applied=0 thread=26712 error=0x80070490 size=0.00x0.00 DIP app=8548 explorer=7244 attach=0x00000000 panel=0 lifecycle=3 revision=3/3\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=7244 taskbar=found",
+  "Profile": "{\"session\":134384036954645798,\"connection\":3,\"revision\":3,\"appliedRevision\":3,\"lifecycle\":3,\"pollingTimers\":0,\"tooltipTimer\":0,\"subscriptions\":0,\"refreshes\":2,\"notifications\":1,\"pointerEvents\":0,\"chromeUpdates\":0,\"tooltipOpens\":0,\"callbackErrors\":1,\"updateTicks\":42,\"maxUpdateTicks\":35,\"qpcFrequency\":10000000}",
+  "ExeSHA256": "38A402039489A8D857C569AB01E4EAE4C92923DC1231F927AA11BB58BDD348BA",
+  "PatchSHA256": "E79814D9C387E31EC5335990BF2380651B1251A0E7E23E0AEF054F5A6D766961",
+  "SettingsSHA256": "AE37618E8835E3052BE19902B84A7C3AAB2215DEF269A44E9E12F857CD8E4BDD",
+  "SettingsUnchanged": true
+}

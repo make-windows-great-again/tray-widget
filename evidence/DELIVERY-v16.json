@@ -1,0 +1,43 @@
+{
+  "Version": 16,
+  "Timestamp": "2026-11-06T03:57:55.9738614-08:00",
+  "AppSHA256": "58A2F135B61B297E1FECFA31A063612DD8E7ACD226A9BA4C26933AE9E81D7E71",
+  "PatchSHA256": "E79814D9C387E31EC5335990BF2380651B1251A0E7E23E0AEF054F5A6D766961",
+  "LayoutSHA256": "AE37618E8835E3052BE19902B84A7C3AAB2215DEF269A44E9E12F857CD8E4BDD",
+  "Status": "mode=2 applied=2 thread=32844 error=0x00000000 size=88.00x48.00 DIP app=38292 explorer=36112 attach=0x00000000 panel=0 lifecycle=2 revision=79/79\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=36112 taskbar=found",
+  "Profile": "{\"session\":134384390809535470,\"connection\":1,\"revision\":79,\"appliedRevision\":79,\"lifecycle\":2,\"pollingTimers\":0,\"tooltipTimer\":0,\"subscriptions\":29,\"refreshes\":701,\"notifications\":77,\"pointerEvents\":49,\"chromeUpdates\":527,\"tooltipOpens\":5,\"callbackErrors\":0,\"updateTicks\":2136167,\"maxUpdateTicks\":67917,\"qpcFrequency\":10000000}",
+  "ReleasePass": 218,
+  "ReleaseHostFinalPass": 53,
+  "DebugPass": 218,
+  "SdkPass": 26,
+  "DpiStates": 43,
+  "DpiHotTransitions": 10,
+  "DisplayScale": 150,
+  "AppsUseLightTheme": 1,
+  "SystemUsesLightTheme": 1,
+  "EnableTransparency": 1,
+  "ExplorerRestarts": 2,
+  "ReconnectIssue": "F05 open; recovered by cold launch after Explorer restart",
+  "ExactVisualParity": false,
+  "KnownCalendarHeightDeltaPx": 3,
+  "Archives": [
+    {
+      "File": "YataNativeFramework-v16-win11-x64-Release.zip",
+      "Bytes": 468185,
+      "SHA256": "E1D8CE632267BA33C63A7942D6E534F6226E9FDCB1726C529B4AED734C6D0F21",
+      "Entries": 2
+    },
+    {
+      "File": "YataNativeFramework-v16-source.zip",
+      "Bytes": 105587957,
+      "SHA256": "11C4843A013D9565A742EC7F6C5B4EE69D1CEB98FF6457279862AC7C415F5913",
+      "Entries": 675
+    },
+    {
+      "File": "ShellPanels-v16-sdk-x64-Release.zip",
+      "Bytes": 1169493,
+      "SHA256": "D67CA486757E91915CBE40BB6A87163160444F7D38DF1B44599612FBB67EBEB9",
+      "Entries": 7
+    }
+  ]
+}

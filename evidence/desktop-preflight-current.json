@@ -1,0 +1,20 @@
+﻿[
+    {
+        "Arguments":  "--diagnose",
+        "ExitCode":  3,
+        "Output":  "session=1 station=WinSta0 desktop=CodexSandboxDesktop-c741f62ad2d480f1bc57cb5992cccfa3 input-desktop=Default shell-pid=0 taskbar=not-found\nExplorer is on a different desktop. This process is on \u0027CodexSandboxDesktop-c741f62ad2d480f1bc57cb5992cccfa3\u0027; the input desktop is \u0027Default\u0027. Launch the EXE from File Explorer on your normal desktop. Use --standalone only for an isolated UI preview.\n",
+        "NoInvisibleInstance":  true
+    },
+    {
+        "Arguments":  "--controls --show",
+        "ExitCode":  3,
+        "Output":  "session=1 station=WinSta0 desktop=CodexSandboxDesktop-c741f62ad2d480f1bc57cb5992cccfa3 input-desktop=Default shell-pid=0 taskbar=not-found\nExplorer is on a different desktop. This process is on \u0027CodexSandboxDesktop-c741f62ad2d480f1bc57cb5992cccfa3\u0027; the input desktop is \u0027Default\u0027. Launch the EXE from File Explorer on your normal desktop. Use --standalone only for an isolated UI preview.\n",
+        "NoInvisibleInstance":  true
+    },
+    {
+        "Arguments":  "--attach",
+        "ExitCode":  3,
+        "Output":  "session=1 station=WinSta0 desktop=CodexSandboxDesktop-c741f62ad2d480f1bc57cb5992cccfa3 input-desktop=Default shell-pid=0 taskbar=not-found\nExplorer is on a different desktop. This process is on \u0027CodexSandboxDesktop-c741f62ad2d480f1bc57cb5992cccfa3\u0027; the input desktop is \u0027Default\u0027. Launch the EXE from File Explorer on your normal desktop. Use --standalone only for an isolated UI preview.\n",
+        "NoInvisibleInstance":  true
+    }
+]

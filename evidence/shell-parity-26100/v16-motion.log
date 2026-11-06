@@ -1,0 +1,31 @@
+
+Tag            Scene Axis Action        Start   End ObservedMs StableEdge MaxWindowGapMs ToneMin
+---            ----- ---- ------        -----   --- ---------- ---------- -------------- -------
+native-light   lang  Y    open           1.75  1.83      70.90       1194         200.00 
+native-light   lang  Y    toggle-close   2.93  3.00      70.83       1194         212.50 233.70
+native-light   lang  Y    outside-close  4.35  4.42      75.00       1194          62.50 233.40
+native-light   quick Y    open           6.84  7.05     212.50        645         175.00 
+native-light   quick Y    toggle-close   7.99  8.15     154.17        645          25.00 233.50
+native-light   quick Y    outside-close  9.38  9.54     154.17        645          41.67 233.75
+native-light   date  X    open          12.00 12.16     154.17        600          33.33 
+native-light   date  X    toggle-close  13.17 13.32     150.06        600          41.67 213.95
+native-light   date  X    outside-close 14.58 14.73     150.06        600          37.50 214.00
+cpp-light-v16  lang  Y    open           1.65  1.73      79.17       1194         104.17 
+cpp-light-v16  lang  Y    toggle-close   2.79  2.86      75.00       1194         175.00 234.35
+cpp-light-v16  lang  Y    outside-close  4.11  4.19      75.00       1194         141.67 234.55
+cpp-light-v16  quick Y    open           6.53  6.76     233.33        639         170.83 
+cpp-light-v16  quick Y    toggle-close   7.67  7.83     158.33        639         133.33 234.70
+cpp-light-v16  quick Y    outside-close  8.99  9.15     158.33        639         116.67 234.25
+cpp-light-v16  date  X    open          11.43 11.58     154.17        600         154.17 
+cpp-light-v16  date  X    toggle-close  12.57 12.73     154.17        600         129.17 233.85
+cpp-light-v16  date  X    outside-close 13.89 14.05     154.17        600         129.17 234.10
+cpp-custom-v16 lang  Y    open           1.66  1.73      66.67       1195         104.17 
+cpp-custom-v16 lang  Y    toggle-close   2.79  2.87      75.00       1195         195.83 63.35
+cpp-custom-v16 lang  Y    outside-close  4.12  4.20      79.17       1195         129.17 63.35
+cpp-custom-v16 quick Y    open           6.54  6.77     233.33        639         175.00 
+cpp-custom-v16 quick Y    toggle-close   7.68  7.84     158.33        639         100.00 62.95
+cpp-custom-v16 quick Y    outside-close  8.99  9.15     158.33        639         175.00 63.00
+cpp-custom-v16 date  X    open          11.43 11.58     154.17        600         112.50 
+cpp-custom-v16 date  X    toggle-close  12.57 12.72     154.17        600          79.17 62.65
+cpp-custom-v16 date  X    outside-close 13.90 14.06     154.17        600         141.67 62.60
+

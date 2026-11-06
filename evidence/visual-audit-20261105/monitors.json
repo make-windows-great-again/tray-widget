@@ -1,0 +1,17 @@
+﻿{
+    "Device":  "\\\\.\\DISPLAY1",
+    "Bounds":  {
+                   "left":  0,
+                   "top":  0,
+                   "right":  2560,
+                   "bottom":  1600
+               },
+    "Work":  {
+                 "left":  0,
+                 "top":  0,
+                 "right":  2560,
+                 "bottom":  1528
+             },
+    "Dpi":  144,
+    "Primary":  true
+}

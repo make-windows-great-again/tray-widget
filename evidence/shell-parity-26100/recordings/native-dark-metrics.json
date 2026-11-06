@@ -1,0 +1,9 @@
+{
+  "Name": "native-dark",
+  "Frames": 2749,
+  "Duration": 20.1625,
+  "MeanIntervalMs": 7.337154294031894,
+  "MedianIntervalMs": 4.16699999999981,
+  "P95IntervalMs": 25.000000000000355,
+  "MaxIntervalMs": 112.5
+}

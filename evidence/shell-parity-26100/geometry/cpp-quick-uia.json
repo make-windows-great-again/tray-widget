@@ -1,0 +1,282 @@
+[
+  {
+    "Name": "",
+    "Id": "",
+    "Class": "Windows.UI.Input.InputSite.WindowClass",
+    "Type": "ControlType.Pane",
+    "X": 1966.0,
+    "Y": 611.0,
+    "W": 396.0,
+    "H": 611.0
+  },
+  {
+    "Name": "",
+    "Id": "",
+    "Class": "ScrollViewer",
+    "Type": "ControlType.Pane",
+    "X": 2002.0,
+    "Y": 647.0,
+    "W": 540.0,
+    "H": 863.0
+  },
+  {
+    "Name": "Test provider",
+    "Id": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "X": 2028.0,
+    "Y": 680.0,
+    "W": 488.0,
+    "H": 22.0
+  },
+  {
+    "Name": "Media",
+    "Id": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "X": 2028.0,
+    "Y": 750.0,
+    "W": 488.0,
+    "H": 26.0
+  },
+  {
+    "Name": "Previous",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2167.0,
+    "Y": 823.0,
+    "W": 47.0,
+    "H": 47.0
+  },
+  {
+    "Name": "Play or pause",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2247.0,
+    "Y": 823.0,
+    "W": 48.0,
+    "H": 47.0
+  },
+  {
+    "Name": "Next",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2328.0,
+    "Y": 823.0,
+    "W": 48.0,
+    "H": 47.0
+  },
+  {
+    "Name": "Wi-Fi",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2037.0,
+    "Y": 968.0,
+    "W": 72.0,
+    "H": 72.0
+  },
+  {
+    "Name": "Wi-Fi details",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2109.0,
+    "Y": 968.0,
+    "W": 72.0,
+    "H": 72.0
+  },
+  {
+    "Name": "Wi-Fi",
+    "Id": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "X": 2087.0,
+    "Y": 1052.0,
+    "W": 42.0,
+    "H": 22.0
+  },
+  {
+    "Name": "Not connected",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2199.0,
+    "Y": 968.0,
+    "W": 72.0,
+    "H": 72.0
+  },
+  {
+    "Name": "Not connected details",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2271.0,
+    "Y": 968.0,
+    "W": 72.0,
+    "H": 72.0
+  },
+  {
+    "Name": "Not connected",
+    "Id": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "X": 2211.0,
+    "Y": 1052.0,
+    "W": 119.0,
+    "H": 22.0
+  },
+  {
+    "Name": "Airplane mode",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2360.0,
+    "Y": 968.0,
+    "W": 143.0,
+    "H": 72.0
+  },
+  {
+    "Name": "Airplane mode",
+    "Id": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "X": 2374.0,
+    "Y": 1052.0,
+    "W": 117.0,
+    "H": 22.0
+  },
+  {
+    "Name": "Accessibility",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2037.0,
+    "Y": 1110.0,
+    "W": 72.0,
+    "H": 71.0
+  },
+  {
+    "Name": "Accessibility details",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2109.0,
+    "Y": 1110.0,
+    "W": 72.0,
+    "H": 71.0
+  },
+  {
+    "Name": "Accessibility",
+    "Id": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "X": 2061.0,
+    "Y": 1194.0,
+    "W": 96.0,
+    "H": 22.0
+  },
+  {
+    "Name": "VPN",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2199.0,
+    "Y": 1110.0,
+    "W": 72.0,
+    "H": 71.0
+  },
+  {
+    "Name": "VPN details",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2271.0,
+    "Y": 1110.0,
+    "W": 72.0,
+    "H": 71.0
+  },
+  {
+    "Name": "VPN",
+    "Id": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "X": 2253.0,
+    "Y": 1194.0,
+    "W": 35.0,
+    "H": 22.0
+  },
+  {
+    "Name": "Energy saver",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2360.0,
+    "Y": 1110.0,
+    "W": 143.0,
+    "H": 71.0
+  },
+  {
+    "Name": "Energy saver",
+    "Id": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "X": 2381.0,
+    "Y": 1194.0,
+    "W": 101.0,
+    "H": 22.0
+  },
+  {
+    "Name": "Brightness",
+    "Id": "Brightness",
+    "Class": "Slider",
+    "Type": "ControlType.Slider",
+    "X": 2093.0,
+    "Y": 1275.0,
+    "W": 410.0,
+    "H": 66.0
+  },
+  {
+    "Name": "Volume",
+    "Id": "Volume",
+    "Class": "Slider",
+    "Type": "ControlType.Slider",
+    "X": 2093.0,
+    "Y": 1347.0,
+    "W": 362.0,
+    "H": 66.0
+  },
+  {
+    "Name": "Select a sound output",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2456.0,
+    "Y": 1356.0,
+    "W": 47.0,
+    "H": 48.0
+  },
+  {
+    "Name": "100%",
+    "Id": "",
+    "Class": "TextBlock",
+    "Type": "ControlType.Text",
+    "X": 2063.0,
+    "Y": 1461.0,
+    "W": 41.0,
+    "H": 22.0
+  },
+  {
+    "Name": "All settings",
+    "Id": "",
+    "Class": "Button",
+    "Type": "ControlType.Button",
+    "X": 2468.0,
+    "Y": 1448.0,
+    "W": 47.0,
+    "H": 48.0
+  }
+]

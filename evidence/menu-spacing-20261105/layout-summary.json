@@ -1,0 +1,38 @@
+[
+  {
+    "Case": "tray-light",
+    "MenuHeightDip": 234,
+    "ItemHeightDip": 28,
+    "PitchDip": 31.999999,
+    "TextLeftDip": 39.333330499999995,
+    "TextTopDip": 4.0,
+    "FontDip": 14
+  },
+  {
+    "Case": "tray-dark",
+    "MenuHeightDip": 234,
+    "ItemHeightDip": 28,
+    "PitchDip": 31.999999,
+    "TextLeftDip": 39.333330499999995,
+    "TextTopDip": 4.0,
+    "FontDip": 14
+  },
+  {
+    "Case": "tray-light-text200",
+    "MenuHeightDip": 252,
+    "ItemHeightDip": 46,
+    "PitchDip": 49.999999,
+    "TextLeftDip": 39.333330499999995,
+    "TextTopDip": 3.3333329999999997,
+    "FontDip": 28
+  },
+  {
+    "Case": "tray-dark-text200",
+    "MenuHeightDip": 252,
+    "ItemHeightDip": 46,
+    "PitchDip": 49.999999,
+    "TextLeftDip": 39.333330499999995,
+    "TextTopDip": 3.3333329999999997,
+    "FontDip": 28
+  }
+]

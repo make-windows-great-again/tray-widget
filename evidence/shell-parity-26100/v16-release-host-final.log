@@ -1,0 +1,57 @@
+HostChecks.cpp
+PASS independent consumer creates a native host
+PASS scheme reaches Open after composition completion
+PASS repeated display relayout does not accumulate anchor offsets
+PASS sent display message repairs native host geometry
+PASS tray press retains the visible surface until release
+PASS tray release starts an exit animation
+PASS tray release completes exactly one close
+PASS foreign activation keeps surface alive during exit
+PASS outside activation reaches Closed
+PASS dismiss during entrance cannot resurrect the panel
+PASS scheme reaches Open after composition completion
+PASS repeated display relayout does not accumulate anchor offsets
+PASS sent display message repairs native host geometry
+PASS tray press retains the visible surface until release
+PASS tray release starts an exit animation
+PASS tray release completes exactly one close
+PASS foreign activation keeps surface alive during exit
+PASS outside activation reaches Closed
+PASS dismiss during entrance cannot resurrect the panel
+PASS scheme reaches Open after composition completion
+PASS repeated display relayout does not accumulate anchor offsets
+PASS sent display message repairs native host geometry
+PASS tray press retains the visible surface until release
+PASS tray release starts an exit animation
+PASS tray release completes exactly one close
+PASS foreign activation keeps surface alive during exit
+PASS outside activation reaches Closed
+PASS dismiss during entrance cannot resurrect the panel
+PASS live model updates do not echo application commands
+PASS live state update preserves the open panel
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS custom content retains its real UI Automation peer
+PASS UI Automation invokes the client action once
+PASS three independent cards measure fixed and flexible bodies
+PASS a card body can receive native keyboard focus
+PASS collapse produces intermediate layout without jumping to the endpoint
+PASS collapsing a focused body returns focus to its header
+PASS reversal cancels old completion and restores the requested expansion
+PASS collapse grows the flexible card while retaining the footer position
+PASS card state survives hide and reopen
+PASS nonanimated update reaches final geometry immediately
+PASS flexible body cannot collapse into an invalid star layout
+PASS switching schema releases a card stack with pending animation safely
+MEASURE cycles=100 private_before=69545984 private_after=69586944 gdi_before=7 gdi_after=7
+PASS 100 cycles stay within the bounded memory allowance
+PASS 100 cycles do not accumulate GDI handles
+MEASURE idle_cpu_one_core_percent=0.000
+MEASURE visibility_callbacks=244
+PASS visibility transitions are delivered to the consuming application

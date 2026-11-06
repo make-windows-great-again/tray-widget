@@ -1,0 +1,28 @@
+[
+  {
+    "Tag": "225-native-date",
+    "Scale": 2.25,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1492
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "1750,0,810,1492"
+  },
+  {
+    "Tag": "225-native-date-collapsed",
+    "Scale": 2.25,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1492
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "1750,0,810,1492"
+  }
+]

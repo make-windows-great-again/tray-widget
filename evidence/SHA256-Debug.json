@@ -1,0 +1,12 @@
+[
+  {
+    "File": "YataNativeFramework.exe",
+    "SHA256": "ADB51E09FA6F49F171F5822D569EF32CEAECACA13F36AEA345DB72A7D19C3766",
+    "Bytes": 3542016
+  },
+  {
+    "File": "YataNativeFramework.Patch.dll",
+    "SHA256": "176A6C0C1F8CA0CAEE45BFA54BE3D24D600C5F932FB6EBE04E3DC390F463998B",
+    "Bytes": 3343872
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "Scale": 100,
+    "Phase": 2,
+    "Collapsed": false,
+    "RasterizationScale": "1.0000",
+    "X": "2212.0000",
+    "ExpectedX": 2212.0,
+    "Height": "1532.0000",
+    "Passed": true
+  },
+  {
+    "Scale": 125,
+    "Phase": 2,
+    "Collapsed": false,
+    "RasterizationScale": "1.2500",
+    "X": "2125.0000",
+    "ExpectedX": 2125.0,
+    "Height": "1212.0000",
+    "Passed": true
+  },
+  {
+    "Scale": 150,
+    "Phase": 2,
+    "Collapsed": false,
+    "RasterizationScale": "1.5000",
+    "X": "2038.0000",
+    "ExpectedX": 2038.0,
+    "Height": "998.6667",
+    "Passed": true
+  },
+  {
+    "Scale": 175,
+    "Phase": 2,
+    "Collapsed": false,
+    "RasterizationScale": "1.7500",
+    "X": "1951.0000",
+    "ExpectedX": 1951.0,
+    "Height": "846.2857",
+    "Passed": true
+  },
+  {
+    "Scale": 200,
+    "Phase": 2,
+    "Collapsed": false,
+    "RasterizationScale": "2.0000",
+    "X": "1864.0000",
+    "ExpectedX": 1864.0,
+    "Height": "732.0000",
+    "Passed": true
+  },
+  {
+    "Scale": 225,
+    "Phase": 2,
+    "Collapsed": false,
+    "RasterizationScale": "2.2500",
+    "X": "1777.0000",
+    "ExpectedX": 1777.0,
+    "Height": "643.1111",
+    "Passed": true
+  },
+  {
+    "Scale": 250,
+    "Phase": 2,
+    "Collapsed": true,
+    "RasterizationScale": "2.5000",
+    "X": "1690.0000",
+    "ExpectedX": 1690.0,
+    "Height": "572.0000",
+    "Passed": true
+  },
+  {
+    "Scale": 175,
+    "Phase": 2,
+    "Collapsed": true,
+    "RasterizationScale": "1.7500",
+    "X": "1951.0000",
+    "ExpectedX": 1951.0,
+    "Height": "846.2857",
+    "Passed": true
+  },
+  {
+    "Scale": 100,
+    "Phase": 2,
+    "Collapsed": true,
+    "RasterizationScale": "1.0000",
+    "X": "2212.0000",
+    "ExpectedX": 2212.0,
+    "Height": "1532.0000",
+    "Passed": true
+  },
+  {
+    "Scale": 150,
+    "Phase": 2,
+    "Collapsed": true,
+    "RasterizationScale": "1.5000",
+    "X": "2038.0000",
+    "ExpectedX": 2038.0,
+    "Height": "999.3333",
+    "Passed": true
+  }
+]

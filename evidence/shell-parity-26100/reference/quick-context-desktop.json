@@ -1,0 +1,114 @@
+[
+  {
+    "Name": "Picture in picture",
+    "Class": "Chrome_WidgetWin_1",
+    "Handle": 459968,
+    "Pid": 14068,
+    "Bounds": "6,53,866,487"
+  },
+  {
+    "Name": "",
+    "Class": "WindowsForms10.Window.8.app.0.343d51e_r3_ad1",
+    "Handle": 658548,
+    "Pid": 25692,
+    "Bounds": "1450,100,1110,1428"
+  },
+  {
+    "Name": "⠇ Проверьте FP8 и запуск Qwen | slave",
+    "Class": "CASCADIA_HOSTING_WINDOW_CLASS",
+    "Handle": 722570,
+    "Pid": 14088,
+    "Bounds": "103,0,1752,1537"
+  },
+  {
+    "Name": "Во всеоружии: Сила артефактов смотреть аниме сериал онлайн на русском and 17 more pages - Profile 1 - Microsoft​ Edge",
+    "Class": "Chrome_WidgetWin_1",
+    "Handle": 66468,
+    "Pid": 14068,
+    "Bounds": "-11,-11,2582,1550"
+  },
+  {
+    "Name": "C:\\Users\\Yata\\AppData\\Local\\Temp - File Explorer",
+    "Class": "CabinetWClass",
+    "Handle": 592526,
+    "Pid": 7244,
+    "Bounds": "-32000,-32000,242,365"
+  },
+  {
+    "Name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application - File Explorer",
+    "Class": "CabinetWClass",
+    "Handle": 525468,
+    "Pid": 7244,
+    "Bounds": "-32000,-32000,242,365"
+  },
+  {
+    "Name": "simplewall 3.9.1",
+    "Class": "#32770",
+    "Handle": 3082524,
+    "Pid": 16940,
+    "Bounds": "1525,106,1035,1193"
+  },
+  {
+    "Name": "Kimi",
+    "Class": "Chrome_WidgetWin_1",
+    "Handle": 67688,
+    "Pid": 8012,
+    "Bounds": "1259,0,1306,1533"
+  },
+  {
+    "Name": "Settings",
+    "Class": "ApplicationFrameWindow",
+    "Handle": 197722,
+    "Pid": 10260,
+    "Bounds": "-9,0,1068,1537"
+  },
+  {
+    "Name": "Task Manager",
+    "Class": "TaskManagerWindow",
+    "Handle": 131770,
+    "Pid": 14312,
+    "Bounds": "Empty"
+  },
+  {
+    "Name": "launch-edge-proxy.ps1 - Notepad",
+    "Class": "Notepad",
+    "Handle": 788928,
+    "Pid": 18448,
+    "Bounds": "Empty"
+  },
+  {
+    "Name": "Hyper-V Manager",
+    "Class": "MMCMainFrame",
+    "Handle": 67338,
+    "Pid": 3664,
+    "Bounds": "Empty"
+  },
+  {
+    "Name": "Steam",
+    "Class": "SDL_app",
+    "Handle": 2165050,
+    "Pid": 8408,
+    "Bounds": "Empty"
+  },
+  {
+    "Name": "Control center",
+    "Class": "HwndWrapper[CC40.exe;;46c4f707-9340-49d5-a3a6-edb20e54ebbb]",
+    "Handle": 1379326,
+    "Pid": 24420,
+    "Bounds": "Empty"
+  },
+  {
+    "Name": "(23) [Official] Celeste Original Soundtrack - 17 - Little Goth - YouTube and 2 more pages - Profile 1 - Microsoft​ Edge",
+    "Class": "Chrome_WidgetWin_1",
+    "Handle": 4065520,
+    "Pid": 19712,
+    "Bounds": "Empty"
+  },
+  {
+    "Name": "Program Manager",
+    "Class": "Progman",
+    "Handle": 525014,
+    "Pid": 7244,
+    "Bounds": "0,0,2560,1600"
+  }
+]

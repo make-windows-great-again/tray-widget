@@ -1,0 +1,9 @@
+FrameworkSelfTest.cpp
+PASS arbitrary client content opens in a real transparent XAML island
+PASS control gallery is loaded and arranged
+PASS all six native control categories are instantiated
+PASS a real button exposes an AutomationPeer
+PASS UI Automation Invoke reaches the button action
+PASS native toggle events reach the client
+PASS text input accepts keyboard focus
+FAIL text input emits native change notifications

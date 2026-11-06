@@ -1,0 +1,7 @@
+Samples/WinUICppDesktopSampleApp/WinUICppDesktopSampleApp/WinUICppDesktopSampleApp/Themes/Generic.xaml
+controls/dev/ScrollPresenter/TestUI/Themes/AdditionalStyles.xaml
+controls/test/MUXControlsTestApp/Themes/DisableAnimationsStyles.xaml
+controls/test/TestAppUtils/Themes/Generic.xaml
+dxaml/test/themes/generic.xaml
+dxaml/xcp/dxaml/themes/generic.xaml
+dxaml/xcp/dxaml/themes/generic_perf2026.xaml

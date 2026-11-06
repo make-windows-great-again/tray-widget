@@ -1,0 +1,214 @@
+[
+  {
+    "Tag": "100-cpp-quick",
+    "PopupPhysicalBounds": null,
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2164,934,396,618"
+  },
+  {
+    "Tag": "100-cpp-quick-context",
+    "PopupPhysicalBounds": {
+      "l": 2304,
+      "t": 1438,
+      "r": 2550,
+      "b": 1540
+    },
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Xaml_WindowedPopupClass",
+    "WindowBounds": "2426,1544,1,1"
+  },
+  {
+    "Tag": "100-cpp-date",
+    "PopupPhysicalBounds": null,
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2188,0,372,1552"
+  },
+  {
+    "Tag": "100-cpp-date-context",
+    "PopupPhysicalBounds": {
+      "l": 2358,
+      "t": 1472,
+      "r": 2549,
+      "b": 1540
+    },
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Xaml_WindowedPopupClass",
+    "WindowBounds": "2453,1544,1,1"
+  },
+  {
+    "Tag": "150-cpp-quick",
+    "PopupPhysicalBounds": null,
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1966,604,594,924"
+  },
+  {
+    "Tag": "150-cpp-quick-context",
+    "PopupPhysicalBounds": {
+      "l": 2175,
+      "t": 1354,
+      "r": 2545,
+      "b": 1510
+    },
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Xaml_WindowedPopupClass",
+    "WindowBounds": "2359,1516,0,0"
+  },
+  {
+    "Tag": "150-cpp-date",
+    "PopupPhysicalBounds": null,
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2002,0,558,1528"
+  },
+  {
+    "Tag": "150-cpp-date-context",
+    "PopupPhysicalBounds": {
+      "l": 2256,
+      "t": 1406,
+      "r": 2544,
+      "b": 1510
+    },
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Xaml_WindowedPopupClass",
+    "WindowBounds": "2399,1516,0,0"
+  },
+  {
+    "Tag": "250-cpp-quick",
+    "PopupPhysicalBounds": null,
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1570,180,990,1300"
+  },
+  {
+    "Tag": "250-cpp-quick-page2",
+    "PopupPhysicalBounds": null,
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1570,180,990,1300"
+  },
+  {
+    "Tag": "250-cpp-quick-context",
+    "PopupPhysicalBounds": {
+      "l": 1919,
+      "t": 1192,
+      "r": 2535,
+      "b": 1450
+    },
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Xaml_WindowedPopupClass",
+    "WindowBounds": "2225,1460,0,0"
+  },
+  {
+    "Tag": "250-cpp-date",
+    "PopupPhysicalBounds": null,
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1630,0,930,1480"
+  },
+  {
+    "Tag": "250-cpp-date-context",
+    "PopupPhysicalBounds": {
+      "l": 2054,
+      "t": 1278,
+      "r": 2533,
+      "b": 1450
+    },
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Xaml_WindowedPopupClass",
+    "WindowBounds": "2292,1460,0,0"
+  }
+]

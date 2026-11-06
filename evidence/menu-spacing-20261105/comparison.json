@@ -1,0 +1,122 @@
+[
+  {
+    "Target": "network",
+    "Phase": "before",
+    "Dpi": 144,
+    "MenuHeightPx": 161.0,
+    "ItemHeightPx": 41.0,
+    "PitchPx": 52.0,
+    "TextLeftPx": 59.0,
+    "TextTopPx": 6.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-network-133450.png"
+  },
+  {
+    "Target": "volume",
+    "Phase": "before",
+    "Dpi": 144,
+    "MenuHeightPx": 156.0,
+    "ItemHeightPx": 41.0,
+    "PitchPx": 52.0,
+    "TextLeftPx": 59.0,
+    "TextTopPx": 6.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-volume-723712.png"
+  },
+  {
+    "Target": "battery",
+    "Phase": "before",
+    "Dpi": 144,
+    "MenuHeightPx": 57.0,
+    "ItemHeightPx": 41.0,
+    "PitchPx": null,
+    "TextLeftPx": 59.0,
+    "TextTopPx": 6.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-battery-789472.png"
+  },
+  {
+    "Target": "clock",
+    "Phase": "before",
+    "Dpi": 144,
+    "MenuHeightPx": 104.0,
+    "ItemHeightPx": 41.0,
+    "PitchPx": 47.0,
+    "TextLeftPx": 59.0,
+    "TextTopPx": 6.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-clock-461784.png"
+  },
+  {
+    "Target": "framework",
+    "Phase": "before",
+    "Dpi": 144,
+    "MenuHeightPx": 366.0,
+    "ItemHeightPx": 48.0,
+    "PitchPx": 48.0,
+    "TextLeftPx": 60.0,
+    "TextTopPx": 8.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-framework-265180.png"
+  },
+  {
+    "Target": "network",
+    "Phase": "after",
+    "Dpi": 144,
+    "MenuHeightPx": 161.0,
+    "ItemHeightPx": 41.0,
+    "PitchPx": 52.0,
+    "TextLeftPx": 59.0,
+    "TextTopPx": 6.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-network-133450.png"
+  },
+  {
+    "Target": "volume",
+    "Phase": "after",
+    "Dpi": 144,
+    "MenuHeightPx": 156.0,
+    "ItemHeightPx": 41.0,
+    "PitchPx": 52.0,
+    "TextLeftPx": 59.0,
+    "TextTopPx": 6.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-volume-723712.png"
+  },
+  {
+    "Target": "battery",
+    "Phase": "after",
+    "Dpi": 144,
+    "MenuHeightPx": 57.0,
+    "ItemHeightPx": 41.0,
+    "PitchPx": null,
+    "TextLeftPx": 59.0,
+    "TextTopPx": 6.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-battery-789472.png"
+  },
+  {
+    "Target": "clock",
+    "Phase": "after",
+    "Dpi": 144,
+    "MenuHeightPx": 104.0,
+    "ItemHeightPx": 41.0,
+    "PitchPx": 47.0,
+    "TextLeftPx": 59.0,
+    "TextTopPx": 6.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-clock-461784.png"
+  },
+  {
+    "Target": "framework",
+    "Phase": "after",
+    "Dpi": 144,
+    "MenuHeightPx": 351.0,
+    "ItemHeightPx": 42.0,
+    "PitchPx": 48.0,
+    "TextLeftPx": 59.0,
+    "TextTopPx": 6.0,
+    "FontSizeRaw": 14.0,
+    "Screenshot": "reference-framework-19139498.png"
+  }
+]

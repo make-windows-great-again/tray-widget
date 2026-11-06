@@ -1,0 +1,11 @@
+{
+  "Captured": "2026-11-05T18:41:32.7773042-08:00",
+  "Target": "cpp",
+  "Theme": "--light",
+  "BenchSHA256": "7F704FD41B1E8D1818DE716E2260CB36BF86CFCABDE858D207C071EE31C429CE",
+  "RequestedCaptureRate": 240,
+  "DuplicateFrames": false,
+  "Coordinates": "Physical pixels",
+  "OpenTrigger": "WM_APP command",
+  "OutsideTrigger": "Physical pointer click"
+}

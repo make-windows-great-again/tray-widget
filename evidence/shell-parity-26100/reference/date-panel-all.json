@@ -1,0 +1,11 @@
+{
+  "Handle": 655756,
+  "Class": "Windows.UI.Core.CoreWindow",
+  "Pid": 29000,
+  "Bounds": {
+    "l": 2020,
+    "t": 0,
+    "r": 2560,
+    "b": 1528
+  }
+}

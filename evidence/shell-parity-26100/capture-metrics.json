@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "native-light",
+    "Frames": 2393,
+    "Duration": 20.1375,
+    "MeanIntervalMs": 8.418687290969817,
+    "MedianIntervalMs": 4.16699999999981,
+    "P95IntervalMs": 33.33299999999895,
+    "MaxIntervalMs": 212.50000000000034
+  },
+  {
+    "Name": "cpp-light",
+    "Frames": 2468,
+    "Duration": 19.1125,
+    "MeanIntervalMs": 7.747263883258972,
+    "MedianIntervalMs": 4.16699999999981,
+    "P95IntervalMs": 33.332999999999835,
+    "MaxIntervalMs": 212.50000000000034
+  },
+  {
+    "Name": "native-dark",
+    "Frames": 2749,
+    "Duration": 20.1625,
+    "MeanIntervalMs": 7.337154294031894,
+    "MedianIntervalMs": 4.16699999999981,
+    "P95IntervalMs": 25.000000000000355,
+    "MaxIntervalMs": 112.5
+  },
+  {
+    "Name": "cpp-dark",
+    "Frames": 2747,
+    "Duration": 19.1,
+    "MeanIntervalMs": 6.95557174071368,
+    "MedianIntervalMs": 4.16699999999981,
+    "P95IntervalMs": 16.666999999999987,
+    "MaxIntervalMs": 112.5
+  },
+  {
+    "Name": "cpp-custom",
+    "Frames": 2603,
+    "Duration": 19.091667,
+    "MeanIntervalMs": 7.337304765564893,
+    "MedianIntervalMs": 4.16699999999981,
+    "P95IntervalMs": 41.665999999999315,
+    "MaxIntervalMs": 87.5
+  }
+]

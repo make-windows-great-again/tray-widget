@@ -1,0 +1,33 @@
+{
+  "Version": 15,
+  "Timestamp": "2026-11-05T19:02:04.9954795-08:00",
+  "AppSHA256": "184FF2C917996EAC8D80D412C5ED06BEFEA9E38177D6D5EDCF5514B85505A482",
+  "PatchSHA256": "E79814D9C387E31EC5335990BF2380651B1251A0E7E23E0AEF054F5A6D766961",
+  "LayoutSHA256": "AE37618E8835E3052BE19902B84A7C3AAB2215DEF269A44E9E12F857CD8E4BDD",
+  "Status": "mode=2 applied=2 thread=25768 error=0x00000000 size=88.00x48.00 DIP app=26648 explorer=18496 attach=0x00000000 panel=1 lifecycle=2 revision=86/86\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=18496 taskbar=found",
+  "Profile": "{\"session\":134384073203536624,\"connection\":2,\"revision\":86,\"appliedRevision\":86,\"lifecycle\":2,\"pollingTimers\":0,\"tooltipTimer\":0,\"subscriptions\":27,\"refreshes\":725,\"notifications\":82,\"pointerEvents\":49,\"chromeUpdates\":556,\"tooltipOpens\":5,\"callbackErrors\":1,\"updateTicks\":2432230,\"maxUpdateTicks\":72609,\"qpcFrequency\":10000000}",
+  "ReleasePass": 212,
+  "DebugPass": 212,
+  "SdkPass": 19,
+  "AppsUseLightTheme": 1,
+  "SystemUsesLightTheme": 1,
+  "EnableTransparency": 1,
+  "ExplorerRestartRequired": true,
+  "Archives": [
+    {
+      "File": "YataNativeFramework-v15-win11-x64-Release.zip",
+      "Bytes": 462033,
+      "SHA256": "80A2FB1BDE917C0251BAF0AD6B8988AD975DBC634D71C393FB28B34655C4148E"
+    },
+    {
+      "File": "YataNativeFramework-v15-source.zip",
+      "Bytes": 55115747,
+      "SHA256": "BEB391491E3D0B7033788496A8A49340114E180DDE46FA254016A8311D32F5FE"
+    },
+    {
+      "File": "ShellPanels-v15-sdk-x64-Release.zip",
+      "Bytes": 1117378,
+      "SHA256": "B646DD54336CBDB45F4E008EC88AC03A977B6FF6077394B8C0001A3524D69A9E"
+    }
+  ]
+}

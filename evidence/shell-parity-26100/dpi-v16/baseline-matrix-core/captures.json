@@ -1,0 +1,626 @@
+[
+  {
+    "Tag": "100-native-date",
+    "Scale": 1.0,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "2200,0,360,1552"
+  },
+  {
+    "Tag": "100-native-date-collapsed",
+    "Scale": 1.0,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "2200,0,360,1552"
+  },
+  {
+    "Tag": "100-cpp-date",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2188,0,372,1552"
+  },
+  {
+    "Tag": "100-cpp-date-collapsed",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2188,0,372,1552"
+  },
+  {
+    "Tag": "100-native-quick",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "ControlCenterWindow",
+    "WindowBounds": "2176,0,384,1552"
+  },
+  {
+    "Tag": "100-cpp-quick",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2164,938,396,614"
+  },
+  {
+    "Tag": "100-native-lang",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "capture only",
+    "WindowBounds": ""
+  },
+  {
+    "Tag": "100-cpp-lang",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2008,1305,408,247"
+  },
+  {
+    "Tag": "125-native-date",
+    "Scale": 1.25,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1540
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "2110,0,450,1540"
+  },
+  {
+    "Tag": "125-native-date-collapsed",
+    "Scale": 1.25,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1540
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "2110,0,450,1540"
+  },
+  {
+    "Tag": "125-cpp-date",
+    "Scale": 1.25,
+    "HostDpi": 120,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1540
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2095,0,465,1540"
+  },
+  {
+    "Tag": "125-cpp-date-collapsed",
+    "Scale": 1.25,
+    "HostDpi": 120,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1540
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2095,0,465,1540"
+  },
+  {
+    "Tag": "125-native-quick",
+    "Scale": 1.25,
+    "HostDpi": 120,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1540
+    },
+    "WindowClass": "ControlCenterWindow",
+    "WindowBounds": "2080,0,480,1540"
+  },
+  {
+    "Tag": "125-cpp-quick",
+    "Scale": 1.25,
+    "HostDpi": 120,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1540
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2065,775,495,765"
+  },
+  {
+    "Tag": "125-native-lang",
+    "Scale": 1.25,
+    "HostDpi": 120,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1540
+    },
+    "WindowClass": "capture only",
+    "WindowBounds": ""
+  },
+  {
+    "Tag": "125-cpp-lang",
+    "Scale": 1.25,
+    "HostDpi": 120,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1540
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1944,1232,510,308"
+  },
+  {
+    "Tag": "150-native-date",
+    "Scale": 1.5,
+    "HostDpi": 120,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "2020,0,540,1528"
+  },
+  {
+    "Tag": "150-native-date-collapsed",
+    "Scale": 1.5,
+    "HostDpi": 120,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "2020,0,540,1528"
+  },
+  {
+    "Tag": "150-cpp-date",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2002,0,558,1528"
+  },
+  {
+    "Tag": "150-cpp-date-collapsed",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2002,0,558,1528"
+  },
+  {
+    "Tag": "150-native-quick",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "ControlCenterWindow",
+    "WindowBounds": "1984,0,576,1528"
+  },
+  {
+    "Tag": "150-cpp-quick",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1966,605,594,923"
+  },
+  {
+    "Tag": "150-native-lang",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "capture only",
+    "WindowBounds": ""
+  },
+  {
+    "Tag": "150-cpp-lang",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1880,1156,612,372"
+  },
+  {
+    "Tag": "175-native-date",
+    "Scale": 1.75,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1516
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "1930,0,630,1516"
+  },
+  {
+    "Tag": "175-native-date-collapsed",
+    "Scale": 1.75,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1516
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "1930,0,630,1516"
+  },
+  {
+    "Tag": "175-cpp-date",
+    "Scale": 1.75,
+    "HostDpi": 168,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1516
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1909,0,651,1516"
+  },
+  {
+    "Tag": "175-cpp-date-collapsed",
+    "Scale": 1.75,
+    "HostDpi": 168,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1516
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1909,0,651,1516"
+  },
+  {
+    "Tag": "175-native-quick",
+    "Scale": 1.75,
+    "HostDpi": 168,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1516
+    },
+    "WindowClass": "ControlCenterWindow",
+    "WindowBounds": "1888,0,672,1516"
+  },
+  {
+    "Tag": "175-cpp-quick",
+    "Scale": 1.75,
+    "HostDpi": 168,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1516
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1867,441,693,1075"
+  },
+  {
+    "Tag": "175-native-lang",
+    "Scale": 1.75,
+    "HostDpi": 168,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1516
+    },
+    "WindowClass": "capture only",
+    "WindowBounds": ""
+  },
+  {
+    "Tag": "175-cpp-lang",
+    "Scale": 1.75,
+    "HostDpi": 168,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1516
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1816,1082,714,434"
+  },
+  {
+    "Tag": "200-native-date",
+    "Scale": 2.0,
+    "HostDpi": 168,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1504
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "1840,0,720,1504"
+  },
+  {
+    "Tag": "200-native-date-collapsed",
+    "Scale": 2.0,
+    "HostDpi": 168,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1504
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "1840,0,720,1504"
+  },
+  {
+    "Tag": "200-cpp-date",
+    "Scale": 2.0,
+    "HostDpi": 192,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1504
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1816,0,744,1504"
+  },
+  {
+    "Tag": "200-cpp-date-collapsed",
+    "Scale": 2.0,
+    "HostDpi": 192,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1504
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1816,0,744,1504"
+  },
+  {
+    "Tag": "200-native-quick",
+    "Scale": 2.0,
+    "HostDpi": 192,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1504
+    },
+    "WindowClass": "ControlCenterWindow",
+    "WindowBounds": "1792,0,768,1504"
+  },
+  {
+    "Tag": "200-cpp-quick",
+    "Scale": 2.0,
+    "HostDpi": 192,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1504
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1768,278,792,1226"
+  },
+  {
+    "Tag": "200-native-lang",
+    "Scale": 2.0,
+    "HostDpi": 192,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1504
+    },
+    "WindowClass": "capture only",
+    "WindowBounds": ""
+  },
+  {
+    "Tag": "200-cpp-lang",
+    "Scale": 2.0,
+    "HostDpi": 192,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1504
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1752,1010,808,494"
+  },
+  {
+    "Tag": "250-native-date",
+    "Scale": 2.5,
+    "HostDpi": 192,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "1660,0,900,1480"
+  },
+  {
+    "Tag": "250-native-date-collapsed",
+    "Scale": 2.5,
+    "HostDpi": 192,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Windows.UI.Core.CoreWindow",
+    "WindowBounds": "1660,0,900,1480"
+  },
+  {
+    "Tag": "250-cpp-date",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1630,0,930,1480"
+  },
+  {
+    "Tag": "250-cpp-date-collapsed",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1630,0,930,1480"
+  },
+  {
+    "Tag": "250-native-quick",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "ControlCenterWindow",
+    "WindowBounds": "1600,0,960,1480"
+  },
+  {
+    "Tag": "250-cpp-quick",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1570,0,990,1480"
+  },
+  {
+    "Tag": "250-native-lang",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "capture only",
+    "WindowBounds": ""
+  },
+  {
+    "Tag": "250-cpp-lang",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1570,860,990,620"
+  }
+]

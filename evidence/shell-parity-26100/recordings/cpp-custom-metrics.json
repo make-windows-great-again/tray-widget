@@ -1,0 +1,9 @@
+{
+  "Name": "cpp-custom",
+  "Frames": 2603,
+  "Duration": 19.091667,
+  "MeanIntervalMs": 7.337304765564893,
+  "MedianIntervalMs": 4.16699999999981,
+  "P95IntervalMs": 41.665999999999315,
+  "MaxIntervalMs": 87.5
+}

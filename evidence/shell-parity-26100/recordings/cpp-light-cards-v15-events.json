@@ -1,0 +1,22 @@
+[
+  {
+    "Ms": 1766.9264,
+    "Event": "cards-open",
+    "Phase": 0
+  },
+  {
+    "Ms": 3150.3187,
+    "Event": "press-Tasks — collapse / expand",
+    "Phase": 2
+  },
+  {
+    "Ms": 4458.7716,
+    "Event": "press-Tasks — collapse / expand",
+    "Phase": 2
+  },
+  {
+    "Ms": 5431.5901,
+    "Event": "cards-outside-close",
+    "Phase": 2
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "Name": "cpp-light",
+  "Frames": 2468,
+  "Duration": 19.1125,
+  "MeanIntervalMs": 7.747263883258972,
+  "MedianIntervalMs": 4.16699999999981,
+  "P95IntervalMs": 33.332999999999835,
+  "MaxIntervalMs": 212.50000000000034
+}

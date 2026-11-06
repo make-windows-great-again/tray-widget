@@ -1,0 +1,171 @@
+[
+  {
+    "Tag": "100-cpp-date",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2188,0,372,1552"
+  },
+  {
+    "Tag": "100-cpp-date-collapsed",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2188,0,372,1552"
+  },
+  {
+    "Tag": "100-cpp-quick",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2164,936,396,616"
+  },
+  {
+    "Tag": "100-cpp-lang",
+    "Scale": 1.0,
+    "HostDpi": 96,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1552
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2107,1305,408,247"
+  },
+  {
+    "Tag": "150-cpp-date",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2002,0,558,1528"
+  },
+  {
+    "Tag": "150-cpp-date-collapsed",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "2002,0,558,1528"
+  },
+  {
+    "Tag": "150-cpp-quick",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1966,601,594,927"
+  },
+  {
+    "Tag": "150-cpp-lang",
+    "Scale": 1.5,
+    "HostDpi": 144,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1528
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1881,1156,612,372"
+  },
+  {
+    "Tag": "250-cpp-date",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1630,0,930,1480"
+  },
+  {
+    "Tag": "250-cpp-date-collapsed",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1630,0,930,1480"
+  },
+  {
+    "Tag": "250-cpp-quick",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1570,181,990,1299"
+  },
+  {
+    "Tag": "250-cpp-quick-page2",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1570,181,990,1299"
+  },
+  {
+    "Tag": "250-cpp-lang",
+    "Scale": 2.5,
+    "HostDpi": 240,
+    "Work": {
+      "Left": 0,
+      "Top": 0,
+      "Right": 2560,
+      "Bottom": 1480
+    },
+    "WindowClass": "Yata.ShellBench.Host",
+    "WindowBounds": "1427,860,1020,620"
+  }
+]

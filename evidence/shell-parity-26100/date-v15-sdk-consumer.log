@@ -1,0 +1,22 @@
+PASS independent test host initialized
+PASS test background owns the input target
+PASS volume exposes a UI Automation element
+PASS initial volume from model reaches the native slider
+PASS live model update reaches the visible slider
+PASS live model update produces no feedback command
+PASS UIA slider input reaches the application exactly once
+PASS network fixture tile exposes a UI Automation element
+TRACE tile=ControlType.Button bounds=2037,965,72,72 foreground=3474904 phase=2
+TRACE hit=ShellPanels test host process=21500 own=21500
+PASS physical input target belongs to the test consumer
+TRACE after click wifi=0 actions=2
+PASS physical click updates only the fixture model exactly once
+PASS Escape closes the panel
+PASS context menu 1 opens
+PASS context menu 1 closes with Escape
+PASS context menu 2 opens
+PASS context menu 2 closes with Escape
+PASS context menu 3 opens
+PASS context menu 3 closes with Escape
+PASS context menu 4 opens
+PASS context menu 4 closes with Escape

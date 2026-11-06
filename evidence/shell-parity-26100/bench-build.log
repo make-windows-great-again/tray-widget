@@ -1,0 +1,3 @@
+ShellPanels.cpp
+ShellBench.cpp
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Yata\Desktop\Download\project\artifacts\shell-panels\Release\ShellBench.exe'

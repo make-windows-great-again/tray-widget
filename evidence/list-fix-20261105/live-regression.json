@@ -1,0 +1,25 @@
+{
+  "ApplicationId": 7012,
+  "ListHeightPx": 144.0,
+  "Rows": [
+    {
+      "Name": "Первый",
+      "Y": 974.0,
+      "Height": 48.0,
+      "Bottom": 1022.0
+    },
+    {
+      "Name": "Второй",
+      "Y": 1022.0,
+      "Height": 48.0,
+      "Bottom": 1070.0
+    },
+    {
+      "Name": "Третий",
+      "Y": 1070.0,
+      "Height": 48.0,
+      "Bottom": 1118.0
+    }
+  ],
+  "ThirdRowSelectedViaUIA": true
+}

@@ -1,0 +1,35 @@
+TrayStub.cpp
+FrameworkSelfTest.cpp
+PASS arbitrary client content opens in a real transparent XAML island
+PASS control gallery is loaded and arranged
+PASS all six native control categories are instantiated
+PASS a real button exposes an AutomationPeer
+PASS UI Automation Invoke reaches the button action
+PASS native toggle events reach the client
+PASS text input accepts keyboard focus
+PASS text input emits native change notifications
+PASS slider events update the real progress control
+PASS native selection changes reach the client
+PASS all three list rows fit without clipping or an inner scrollbar
+PASS the list grows to fit doubled text instead of clipping the last row
+PASS restoring system typography keeps every row visible
+PASS selecting the fully visible last row notifies the client
+PASS the last list row accepts keyboard focus
+PASS native list keyboard focus reaches the island window
+PASS Home selects the first row through native keyboard handling
+PASS client controls inherit the selected light or dark theme
+PASS all list rows remain visible after a live theme change
+PASS client controls inherit the selected light or dark theme
+PASS all list rows remain visible after a live theme change
+PASS a real button exposes an AutomationPeer
+PASS ContentDialog is hosted in the island XamlRoot
+PASS Escape is offered to child controls before the flyout host
+PASS closing a modal dialog preserves its owning panel
+PASS a real button exposes an AutomationPeer
+PASS replacing client content unloads the old page and its dialog
+PASS oversize content and shadow remain inside the monitor work area
+PASS animated closing completes and clears visibility
+PASS disabled animations produce a completed opening
+PASS disabled animations produce a completed closing
+PASS visibility callbacks track complete panel cycles
+All isolated framework and native-control checks passed. Explorer was not modified.

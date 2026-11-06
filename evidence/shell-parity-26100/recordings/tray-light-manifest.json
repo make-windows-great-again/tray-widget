@@ -1,0 +1,12 @@
+{
+  "Captured": "2026-11-05T17:58:58.5226547-08:00",
+  "Target": "tray",
+  "Theme": "--light",
+  "BenchSHA256": "D76F330C33E2FC5D3D382EECC6295372BB143A34E42174967E884DD56F159EE0",
+  "RequestedCaptureRate": 240,
+  "DuplicateFrames": false,
+  "Coordinates": "Physical pixels",
+  "OpenTrigger": "Physical pointer click after CLI selects content",
+  "OutsideTrigger": "Physical pointer click",
+  "AppSHA256": "38A402039489A8D857C569AB01E4EAE4C92923DC1231F927AA11BB58BDD348BA"
+}

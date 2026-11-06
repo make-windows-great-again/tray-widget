@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "ShellPanels test host",
+    "Class": "Yata.ShellBench.Host",
+    "Pid": 25292
+  },
+  {
+    "Name": "",
+    "Class": "#32769",
+    "Pid": 1616
+  }
+]

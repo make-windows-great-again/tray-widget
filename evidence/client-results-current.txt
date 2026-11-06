@@ -1,0 +1,10 @@
+PASS production executable hosts the gallery without Explorer patching
+PASS startup applies the selected label and width
+PASS actual WM_COPYDATA command updates mode and width together
+PASS actual reversed CLI option order preserves the other width
+PASS invalid client CLI cannot change the running request
+PASS live client content can switch between sample and gallery
+PASS standalone client does not create backend polling timers
+PASS status reports that standalone mode has no Explorer decoration
+PASS the production executable exits cleanly through its own CLI
+ALL CLIENT CHECKS PASSED

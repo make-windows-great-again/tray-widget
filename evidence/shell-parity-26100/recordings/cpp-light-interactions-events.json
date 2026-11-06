@@ -1,0 +1,67 @@
+[
+  {
+    "Ms": 1777.3407,
+    "Event": "date-open",
+    "Phase": 0
+  },
+  {
+    "Ms": 3126.2645,
+    "Event": "press-Collapse calendar",
+    "Phase": 2
+  },
+  {
+    "Ms": 4361.4063,
+    "Event": "press-Expand calendar",
+    "Phase": 2
+  },
+  {
+    "Ms": 5615.8066,
+    "Event": "press-Next month",
+    "Phase": 2
+  },
+  {
+    "Ms": 6878.1057,
+    "Event": "press-Previous month",
+    "Phase": 2
+  },
+  {
+    "Ms": 7793.4588,
+    "Event": "date-escape",
+    "Phase": 2
+  },
+  {
+    "Ms": 8253.3531,
+    "Event": "quick-open",
+    "Phase": 0
+  },
+  {
+    "Ms": 9159.7997,
+    "Event": "pointer-hover",
+    "Phase": 2
+  },
+  {
+    "Ms": 9812.9849,
+    "Event": "pointer-hover",
+    "Phase": 2
+  },
+  {
+    "Ms": 10468.7771,
+    "Event": "pointer-hover",
+    "Phase": 2
+  },
+  {
+    "Ms": 11130.3967,
+    "Event": "pointer-hover",
+    "Phase": 2
+  },
+  {
+    "Ms": 11785.399,
+    "Event": "pointer-hover",
+    "Phase": 2
+  },
+  {
+    "Ms": 12446.7384,
+    "Event": "quick-outside-close",
+    "Phase": 2
+  }
+]

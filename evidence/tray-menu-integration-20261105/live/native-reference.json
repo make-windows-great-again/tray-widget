@@ -1,0 +1,168 @@
+{
+  "Target": "framework",
+  "Hovered": true,
+  "Window": {
+    "Handle": 461880,
+    "Class": "Xaml_WindowedPopupClass",
+    "Dpi": 144,
+    "Bounds": {
+      "left": 1859,
+      "top": 1166,
+      "right": 2167,
+      "bottom": 1510
+    }
+  },
+  "Screenshot": "reference-framework-461880.png",
+  "Elements": [
+    {
+      "Name": "",
+      "Type": "ControlType.Menu",
+      "X": 1859.0,
+      "Y": 1166.0,
+      "W": 308.0,
+      "H": 344.0,
+      "Font": null,
+      "FontSizeRaw": null
+    },
+    {
+      "Name": "Открыть панель",
+      "Type": "ControlType.MenuItem",
+      "X": 1867.0,
+      "Y": 1174.0,
+      "W": 292.0,
+      "H": 41.0,
+      "Font": null,
+      "FontSizeRaw": null
+    },
+    {
+      "Name": "Открыть панель",
+      "Type": "ControlType.Text",
+      "X": 1926.0,
+      "Y": 1181.0,
+      "W": 216.0,
+      "H": 28.0,
+      "Font": "Segoe UI Variable",
+      "FontSizeRaw": 14.0
+    },
+    {
+      "Name": "Элементы управления",
+      "Type": "ControlType.MenuItem",
+      "X": 1867.0,
+      "Y": 1221.0,
+      "W": 292.0,
+      "H": 41.0,
+      "Font": null,
+      "FontSizeRaw": null
+    },
+    {
+      "Name": "Элементы управления",
+      "Type": "ControlType.Text",
+      "X": 1926.0,
+      "Y": 1228.0,
+      "W": 216.0,
+      "H": 28.0,
+      "Font": "Segoe UI Variable",
+      "FontSizeRaw": 14.0
+    },
+    {
+      "Name": "Подпись",
+      "Type": "ControlType.MenuItem",
+      "X": 1867.0,
+      "Y": 1268.0,
+      "W": 292.0,
+      "H": 41.0,
+      "Font": null,
+      "FontSizeRaw": null
+    },
+    {
+      "Name": "Подпись",
+      "Type": "ControlType.Text",
+      "X": 1926.0,
+      "Y": 1276.0,
+      "W": 216.0,
+      "H": 27.0,
+      "Font": "Segoe UI Variable",
+      "FontSizeRaw": 14.0
+    },
+    {
+      "Name": "Две строки (пример)",
+      "Type": "ControlType.MenuItem",
+      "X": 1867.0,
+      "Y": 1315.0,
+      "W": 292.0,
+      "H": 41.0,
+      "Font": null,
+      "FontSizeRaw": null
+    },
+    {
+      "Name": "Две строки (пример)",
+      "Type": "ControlType.Text",
+      "X": 1926.0,
+      "Y": 1322.0,
+      "W": 216.0,
+      "H": 28.0,
+      "Font": "Segoe UI Variable",
+      "FontSizeRaw": 14.0
+    },
+    {
+      "Name": "Обычный значок",
+      "Type": "ControlType.MenuItem",
+      "X": 1867.0,
+      "Y": 1363.0,
+      "W": 292.0,
+      "H": 40.0,
+      "Font": null,
+      "FontSizeRaw": null
+    },
+    {
+      "Name": "Обычный значок",
+      "Type": "ControlType.Text",
+      "X": 1926.0,
+      "Y": 1369.0,
+      "W": 216.0,
+      "H": 28.0,
+      "Font": "Segoe UI Variable",
+      "FontSizeRaw": 14.0
+    },
+    {
+      "Name": "Ширина: 88 DIP",
+      "Type": "ControlType.MenuItem",
+      "X": 1867.0,
+      "Y": 1410.0,
+      "W": 292.0,
+      "H": 40.0,
+      "Font": null,
+      "FontSizeRaw": null
+    },
+    {
+      "Name": "Ширина: 88 DIP",
+      "Type": "ControlType.Text",
+      "X": 1926.0,
+      "Y": 1417.0,
+      "W": 162.0,
+      "H": 27.0,
+      "Font": "Segoe UI Variable",
+      "FontSizeRaw": 14.0
+    },
+    {
+      "Name": "Выход",
+      "Type": "ControlType.MenuItem",
+      "X": 1867.0,
+      "Y": 1461.0,
+      "W": 292.0,
+      "H": 40.0,
+      "Font": null,
+      "FontSizeRaw": null
+    },
+    {
+      "Name": "Выход",
+      "Type": "ControlType.Text",
+      "X": 1926.0,
+      "Y": 1468.0,
+      "W": 216.0,
+      "H": 27.0,
+      "Font": "Segoe UI Variable",
+      "FontSizeRaw": 14.0
+    }
+  ]
+}

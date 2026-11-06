@@ -1,0 +1,17 @@
+[
+  {
+    "File": "YataNativeFramework-v14-win11-x64-Release.zip",
+    "Bytes": 446128,
+    "SHA256": "BFBD3A05A8BF687D48D8E1B07D6C043727F4EFD7C3A31D8ED1306A7AF3B901C2"
+  },
+  {
+    "File": "YataNativeFramework-v14-source.zip",
+    "Bytes": 34048158,
+    "SHA256": "72A37716C31A3A0622B93A175D94D457DD7E6EC09BA90C2C7A8AB295F2B03BE0"
+  },
+  {
+    "File": "ShellPanels-v14-sdk-x64-Release.zip",
+    "Bytes": 1001824,
+    "SHA256": "E337494A3FECD8D4C0114D053E5EBED094A3AF7A0A7740402A286B4E6D557915"
+  }
+]

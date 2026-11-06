@@ -1,0 +1,57 @@
+[
+  {
+    "Case": "panel-open",
+    "Phase": 2,
+    "ObservedAfterMs": 287.5723
+  },
+  {
+    "Case": "close-button-animated",
+    "Phase": 3,
+    "ObservedAfterMs": 2.5748
+  },
+  {
+    "Case": "close-button-complete",
+    "Phase": 0,
+    "ObservedAfterMs": 189.0919
+  },
+  {
+    "Case": "panel-open",
+    "Phase": 2,
+    "ObservedAfterMs": 287.3797
+  },
+  {
+    "Case": "escape-animated",
+    "Phase": 3,
+    "ObservedAfterMs": 14.588
+  },
+  {
+    "Case": "escape-complete",
+    "Phase": 0,
+    "ObservedAfterMs": 171.2601
+  },
+  {
+    "Case": "panel-open",
+    "Phase": 2,
+    "ObservedAfterMs": 276.6642
+  },
+  {
+    "Case": "external-deactivation-complete",
+    "Phase": 0,
+    "ObservedAfterMs": 12.9806
+  },
+  {
+    "Case": "panel-open",
+    "Phase": 2,
+    "ObservedAfterMs": 269.2028
+  },
+  {
+    "Case": "tray-toggle-closes",
+    "Phase": 0,
+    "ObservedAfterMs": 8.5433
+  },
+  {
+    "Case": "next-tray-toggle-opens",
+    "Phase": 2,
+    "ObservedAfterMs": 278.6333
+  }
+]

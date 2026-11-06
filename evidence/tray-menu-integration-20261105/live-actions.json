@@ -1,0 +1,11 @@
+{
+  "ApplicationId": 24476,
+  "TrayCommands": 7,
+  "WidthCommands": [
+    "По содержимому",
+    "Уже на 8 DIP",
+    "Шире на 8 DIP"
+  ],
+  "Invoked": "Элементы управления",
+  "ActionPassed": true
+}

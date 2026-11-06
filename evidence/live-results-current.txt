@@ -1,0 +1,4 @@
+﻿PASS version role runs without a UI
+FAIL Application exited (3): session=1 station=WinSta0 desktop=CodexSandboxDesktop-c741f62ad2d480f1bc57cb5992cccfa3 input-desktop=Default shell-pid=0 taskbar=not-found
+Explorer is on a different desktop. This process is on 'CodexSandboxDesktop-c741f62ad2d480f1bc57cb5992cccfa3'; the input desktop is 'Default'. Launch the EXE from File Explorer on your normal desktop. Use --standalone only for an isolated UI preview.
+ 

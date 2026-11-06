@@ -1,0 +1,30 @@
+﻿PASS panel publishes its open state
+PASS close is an accessible native Button
+PASS both values are accessible
+PASS panel HWND is entirely above the taskbar
+PASS close Invoke completes the slide down and clears open state
+PASS HWND remains fixed above the taskbar throughout closing
+PASS open cycle 1
+PASS close cycle 1
+PASS open cycle 2
+PASS close cycle 2
+PASS open cycle 3
+PASS close cycle 3
+PASS open cycle 4
+PASS close cycle 4
+PASS open cycle 5
+PASS close cycle 5
+PASS open cycle 6
+PASS close cycle 6
+PASS open cycle 7
+PASS close cycle 7
+PASS open cycle 8
+PASS close cycle 8
+PASS open cycle 9
+PASS close cycle 9
+PASS open cycle 10
+PASS close cycle 10
+PASS close accepts keyboard focus
+PASS Space invokes the focused close button
+PASS Escape dismisses the panel
+ALL PANEL CHECKS PASSED

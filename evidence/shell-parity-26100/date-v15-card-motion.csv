@@ -1,0 +1,7 @@
+"Name","Action","InitialTopPx","FinalTopPx","ObservedMs","MovingFrames","MaxMovingCaptureGapMs"
+"native-light-interactions","Collapse","826","1360","220.83","53","8.33"
+"native-light-interactions","Expand","1360","826","220.83","56","8.33"
+"cpp-light-interactions-v15","Collapse","823","1357","225","50","12.5"
+"cpp-light-interactions-v15","Expand","1357","823","204.17","47","12.5"
+"cpp-dark-interactions-v15","Collapse","823","1357","225","51","8.33"
+"cpp-dark-interactions-v15","Expand","1357","823","220.83","46","8.33"

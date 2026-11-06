@@ -1,0 +1,9 @@
+{
+  "Name": "native-light",
+  "Frames": 2393,
+  "Duration": 20.1375,
+  "MeanIntervalMs": 8.418687290969817,
+  "MedianIntervalMs": 4.16699999999981,
+  "P95IntervalMs": 33.33299999999895,
+  "MaxIntervalMs": 212.50000000000034
+}

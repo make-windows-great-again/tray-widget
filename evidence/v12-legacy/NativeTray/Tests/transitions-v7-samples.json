@@ -1,0 +1,345 @@
+﻿[
+    {
+        "Cycle":  1,
+        "Step":  "opening",
+        "Ms":  4.7967,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "opening",
+        "Ms":  38.1411,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "opening",
+        "Ms":  53.828500000000005,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "opening",
+        "Ms":  70.0394,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "opening",
+        "Ms":  85.733200000000011,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "opening",
+        "Ms":  101.48920000000001,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "opening",
+        "Ms":  117.67760000000001,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "opening",
+        "Ms":  133.76600000000002,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "opening",
+        "Ms":  149.3333,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "closing",
+        "Ms":  0.3361,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "closing",
+        "Ms":  29.282600000000002,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "closing",
+        "Ms":  44.9949,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "closing",
+        "Ms":  60.9512,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "closing",
+        "Ms":  76.4967,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  1,
+        "Step":  "closing",
+        "Ms":  92.4332,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  0.5008,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  16.6635,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  32.6624,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  48.2768,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  64.339300000000009,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  79.9401,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  96.0545,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  112.8498,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  128.4995,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "opening",
+        "Ms":  145.04590000000002,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "closing",
+        "Ms":  0.1198,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "closing",
+        "Ms":  15.5708,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "closing",
+        "Ms":  31.722,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "closing",
+        "Ms":  47.8203,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "closing",
+        "Ms":  63.5611,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "closing",
+        "Ms":  79.3086,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  2,
+        "Step":  "closing",
+        "Ms":  95.174,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  0.5298,
+        "Phase":  1,
+        "Visible":  0
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  15.069700000000001,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  30.985400000000002,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  47.1661,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  62.9866,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  79.2025,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  94.6746,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  110.122,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  126.093,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "opening",
+        "Ms":  141.9549,
+        "Phase":  1,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "closing",
+        "Ms":  0.1187,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "closing",
+        "Ms":  14.920200000000001,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "closing",
+        "Ms":  30.444200000000002,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "closing",
+        "Ms":  46.3457,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "closing",
+        "Ms":  61.9301,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "closing",
+        "Ms":  78.452700000000007,
+        "Phase":  3,
+        "Visible":  1
+    },
+    {
+        "Cycle":  3,
+        "Step":  "closing",
+        "Ms":  94.5545,
+        "Phase":  3,
+        "Visible":  1
+    }
+]

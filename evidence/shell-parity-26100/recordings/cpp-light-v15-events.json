@@ -1,0 +1,112 @@
+[
+  {
+    "Ms": 1781.3644,
+    "Event": "lang-open",
+    "Phase": 0
+  },
+  {
+    "Ms": 2964.3549,
+    "Event": "lang-toggle-close",
+    "Phase": 2
+  },
+  {
+    "Ms": 3562.7854,
+    "Event": "lang-open-again",
+    "Phase": 0
+  },
+  {
+    "Ms": 4278.5296,
+    "Event": "lang-outside-close",
+    "Phase": 2
+  },
+  {
+    "Ms": 4943.0106,
+    "Event": "lang-context",
+    "Phase": 0
+  },
+  {
+    "Ms": 5795.4941,
+    "Event": "lang-context-escape",
+    "Phase": 0
+  },
+  {
+    "Ms": 6684.6342,
+    "Event": "quick-open",
+    "Phase": 0
+  },
+  {
+    "Ms": 7843.0153,
+    "Event": "quick-toggle-close",
+    "Phase": 2
+  },
+  {
+    "Ms": 8463.373,
+    "Event": "quick-open-again",
+    "Phase": 0
+  },
+  {
+    "Ms": 9166.3692,
+    "Event": "quick-outside-close",
+    "Phase": 2
+  },
+  {
+    "Ms": 9830.0682,
+    "Event": "quick-context",
+    "Phase": 0
+  },
+  {
+    "Ms": 10676.184,
+    "Event": "quick-context-escape",
+    "Phase": 0
+  },
+  {
+    "Ms": 11546.329,
+    "Event": "date-open",
+    "Phase": 0
+  },
+  {
+    "Ms": 12706.9138,
+    "Event": "date-toggle-close",
+    "Phase": 2
+  },
+  {
+    "Ms": 13325.36,
+    "Event": "date-open-again",
+    "Phase": 0
+  },
+  {
+    "Ms": 14026.5463,
+    "Event": "date-outside-close",
+    "Phase": 2
+  },
+  {
+    "Ms": 14692.2664,
+    "Event": "date-context",
+    "Phase": 0
+  },
+  {
+    "Ms": 15552.3523,
+    "Event": "date-context-escape",
+    "Phase": 0
+  },
+  {
+    "Ms": 16060.7067,
+    "Event": "network-context",
+    "Phase": 0
+  },
+  {
+    "Ms": 16927.1846,
+    "Event": "network-context-escape",
+    "Phase": 0
+  },
+  {
+    "Ms": 17331.4284,
+    "Event": "battery-context",
+    "Phase": 0
+  },
+  {
+    "Ms": 18173.843,
+    "Event": "battery-context-escape",
+    "Phase": 0
+  }
+]

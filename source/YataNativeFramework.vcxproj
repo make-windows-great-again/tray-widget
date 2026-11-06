@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+ <ItemGroup Label="ProjectConfigurations">
+  <ProjectConfiguration Include="Debug|x64"><Configuration>Debug</Configuration><Platform>x64</Platform></ProjectConfiguration>
+  <ProjectConfiguration Include="Release|x64"><Configuration>Release</Configuration><Platform>x64</Platform></ProjectConfiguration>
+ </ItemGroup>
+ <PropertyGroup Label="Globals"><ProjectGuid>{CA87A847-E97F-47CD-BE53-3D3AD3192C3E}</ProjectGuid><Keyword>MakeFileProj</Keyword><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion></PropertyGroup>
+ <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+ <PropertyGroup Label="Configuration"><ConfigurationType>Makefile</ConfigurationType></PropertyGroup>
+ <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+ <PropertyGroup>
+  <NMakeBuildCommandLine>powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$(ProjectDir)..\Build.ps1" -Configuration "$(Configuration)"</NMakeBuildCommandLine>
+  <NMakeReBuildCommandLine>$(NMakeBuildCommandLine)</NMakeReBuildCommandLine>
+  <NMakeOutput>$(ProjectDir)..\bin\$(Configuration)\YataNativeFramework.exe</NMakeOutput>
+  <OutDir>$(ProjectDir)..\bin\$(Configuration)\</OutDir><IntDir>$(ProjectDir)..\artifacts\ide\$(Configuration)\</IntDir>
+ </PropertyGroup>
+ <ItemGroup><ClCompile Include="TrayStub.cpp" /><ClInclude Include="*.h" /><ClInclude Include="NativeTray\*.h" /><None Include="NativeTray\*.cpp" /><None Include="app.manifest" /></ItemGroup>
+ <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

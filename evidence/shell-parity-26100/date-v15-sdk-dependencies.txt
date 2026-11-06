@@ -1,0 +1,50 @@
+Microsoft (R) COFF/PE Dumper Version 14.51.36260.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Users\Yata\Desktop\Download\project\artifacts\sdk-consumer\SdkConsumer.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Image has the following dependencies:
+
+    api-ms-win-core-debug-l1-1-0.dll
+    USER32.dll
+    dwmapi.dll
+    GDI32.dll
+    SHLWAPI.dll
+    KERNEL32.dll
+    api-ms-win-ntuser-sysparams-l1-1-0.dll
+    api-ms-win-shcore-stream-winrt-l1-1-0.dll
+    api-ms-win-core-rtlsupport-l1-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-interlocked-l1-1-0.dll
+    api-ms-win-core-fibers-l1-1-0.dll
+    api-ms-win-core-util-l1-1-0.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-1.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-processenvironment-l1-1-0.dll
+    api-ms-win-core-console-l1-1-0.dll
+    api-ms-win-core-heap-l1-1-0.dll
+    api-ms-win-core-file-l1-1-0.dll
+    api-ms-win-core-localization-l1-2-0.dll
+    api-ms-win-core-string-l1-1-0.dll
+    api-ms-win-core-memory-l1-1-0.dll
+    api-ms-win-shcore-scaling-l1-1-1.dll
+    api-ms-win-core-winrt-l1-1-0.dll
+    api-ms-win-core-winrt-error-l1-1-1.dll
+    OLEAUT32.dll
+    api-ms-win-core-com-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-2-0.dll
+
+  Summary
+
+        B000 .data
+        1000 .fptable
+        5000 .pdata
+       27000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       60000 .text

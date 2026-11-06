@@ -1,0 +1,5 @@
+LIBRARY "YataNativeFramework.Patch.dll"
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE
+    NativeTrayHook

@@ -1,0 +1,68 @@
+[
+  {
+    "Run": 1,
+    "MonitorHz": 240,
+    "DwmHz": 240.0038401,
+    "Phase": "layout-width",
+    "UiRenderingHz": 240.0997836,
+    "MaxGapMs": 6.5544,
+    "LayoutWidthDip": 224,
+    "NeighborXDip": 232,
+    "UiaWidthPx": 335.9999695
+  },
+  {
+    "Run": 1,
+    "MonitorHz": 240,
+    "DwmHz": 240.0038401,
+    "Phase": "composition-scale",
+    "UiRenderingHz": 240.5593189,
+    "MaxGapMs": 5.9598,
+    "LayoutWidthDip": 88,
+    "NeighborXDip": 96,
+    "UiaWidthPx": 335.9999695
+  },
+  {
+    "Run": 2,
+    "MonitorHz": 240,
+    "DwmHz": 240.015361,
+    "Phase": "layout-width",
+    "UiRenderingHz": 240.4164289,
+    "MaxGapMs": 5.233,
+    "LayoutWidthDip": 224,
+    "NeighborXDip": 232,
+    "UiaWidthPx": 335.9999695
+  },
+  {
+    "Run": 2,
+    "MonitorHz": 240,
+    "DwmHz": 240.015361,
+    "Phase": "composition-scale",
+    "UiRenderingHz": 240.7314384,
+    "MaxGapMs": 4.823,
+    "LayoutWidthDip": 88,
+    "NeighborXDip": 96,
+    "UiaWidthPx": 335.9999695
+  },
+  {
+    "Run": 3,
+    "MonitorHz": 240,
+    "DwmHz": 239.99808,
+    "Phase": "layout-width",
+    "UiRenderingHz": 240.2931206,
+    "MaxGapMs": 5.395,
+    "LayoutWidthDip": 224,
+    "NeighborXDip": 232,
+    "UiaWidthPx": 335.9999695
+  },
+  {
+    "Run": 3,
+    "MonitorHz": 240,
+    "DwmHz": 239.99808,
+    "Phase": "composition-scale",
+    "UiRenderingHz": 240.498099,
+    "MaxGapMs": 5.1094,
+    "LayoutWidthDip": 88,
+    "NeighborXDip": 96,
+    "UiaWidthPx": 335.9999695
+  }
+]

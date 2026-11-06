@@ -1,0 +1,25 @@
+{
+  "OldExplorerId": 9444,
+  "NewExplorerIds": [
+    26404
+  ],
+  "Status": "mode=2 applied=2 thread=17236 error=0x00000000 size=88.00x48.00 DIP app=23884 explorer=26404 attach=0x00000000 panel=1 lifecycle=2 revision=14/14\r\nsession=1 station=WinSta0 desktop=Default input-desktop=Default shell-pid=26404 taskbar=found",
+  "RestoredFolders": [
+    {
+      "Location": "file:///C:/Users/Yata/AppData/Local/Temp",
+      "Left": -32000,
+      "Top": -32000,
+      "Width": 237,
+      "Height": 39
+    },
+    {
+      "Location": "file:///C:/Program%20Files%20(x86)/Microsoft/Edge/Application",
+      "Left": -32000,
+      "Top": -32000,
+      "Width": 237,
+      "Height": 39
+    }
+  ],
+  "SettingsUnchanged": true,
+  "PatchUnchanged": true
+}

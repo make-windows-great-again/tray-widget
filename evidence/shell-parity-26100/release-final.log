@@ -1,0 +1,222 @@
+ShellPanels.cpp
+NativeTrayTap.cpp
+   Creating library C:\Users\Yata\Desktop\Download\project\artifacts\obj\Release\YataNativeFramework.Patch.lib and object C:\Users\Yata\Desktop\Download\project\artifacts\obj\Release\YataNativeFramework.Patch.exp
+TrayStub.cpp
+NativeTraySelfTest.cpp
+PASS VPN reserves 44 DIP
+PASS a single owned tooltip is registered above the decorated icon
+PASS tooltip is anchored to the complete tray button
+PASS tooltip keeps native caption typography and padding
+PASS tooltip inherits the shell palette from its owner resource scope
+PASS label uses a real XAML TextBlock
+PASS native ContentGrid identity and transform target are preserved
+PASS replacement leaves pointer handling to outer control
+PASS VPN measures and arranges at 44 DIP
+PASS speed mode reserves 104 DIP
+PASS speed mode contains two text rows
+PASS caption metrics and separate direction/number/unit columns
+PASS numeric column uses tabular figures
+PASS native presenter foreground propagates to custom text
+PASS open panel owns a separate selected background without intercepting clicks
+PASS selected normal hover and pressed states have separate native brushes
+PASS closing restores native hover chrome and foreground
+PASS repeated open close retains the original native highlight
+PASS original tooltip is restored on mode restoration
+PASS original content object is restored
+PASS original ContentGrid children are restored
+PASS original local dimensions and unset values are restored
+PASS original alignment local value is restored
+PASS arbitrary requested native width is applied
+PASS automatic width follows XAML measurement
+PASS automatic width grows with the text content
+PASS unrelated element stays unchanged
+PASS original Content binding is restored
+PASS repeated mode switches retain the original binding
+PASS owned tooltip opens without an automatic pointer placement
+tooltip width=44 DIP anchorTop=1528 popup=2087,1441,2301,1511
+PASS opening a loaded tooltip creates exactly one visible native popup
+PASS visible tooltip including its shadow stays above the taskbar in the work area
+PASS tooltip remains centered over the complete tray button
+PASS owned tooltip opens without an automatic pointer placement
+tooltip width=88 DIP anchorTop=1528 popup=2120,1441,2334,1511
+PASS opening a loaded tooltip creates exactly one visible native popup
+PASS visible tooltip including its shadow stays above the taskbar in the work area
+PASS tooltip remains centered over the complete tray button
+PASS owned tooltip opens without an automatic pointer placement
+tooltip width=160 DIP anchorTop=1528 popup=2174,1441,2388,1511
+PASS opening a loaded tooltip creates exactly one visible native popup
+PASS visible tooltip including its shadow stays above the taskbar in the work area
+PASS tooltip remains centered over the complete tray button
+PASS controller fixture uses a loaded real XAML owner
+PASS a new framework session leaves legacy application timers untouched
+PASS event controller applies the initial request without polling
+PASS idle controller performs zero periodic refreshes
+PASS mode and target width apply as a single acknowledged snapshot
+PASS one thousand queued visual events coalesce into bounded updates
+PASS open state activates native selected chrome through notifications
+PASS an exception at the window boundary disables only the decorator
+PASS fault containment restores the original XAML content and chrome
+PASS a fault does not enter a reapply loop
+PASS disconnect releases subscriptions, waits, timers and the session mapping
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS an unloaded owner releases its decoration without polling
+PASS Loaded rediscovers the same owner after it re-enters the tree
+PASS a signalled owner wait schedules cleanup on the XAML thread
+All XAML integration checks passed. Explorer was not loaded or modified by this test.
+FlyoutPlacementSelfTest.cpp
+PASS panel is centered while it fits
+PASS growth at the right limit changes only the left edge
+PASS oversize content is reduced to the work area with native margins
+PASS negative monitor origins and 150 percent DPI retain the correct edge margin
+PASS 200 percent DPI scales screen margins once
+PASS 3125 combinations of anchors widths and DPI stay inside work area and shadow bounds
+All placement checks passed.
+TrayCommandsSelfTest.cpp
+PASS legacy combined mode and width command is one parsed transaction
+PASS option order does not change the target mode
+PASS invalid and overflowing widths are rejected
+PASS invalid and overflowing widths are rejected
+PASS invalid and overflowing widths are rejected
+PASS invalid and overflowing widths are rejected
+PASS invalid and overflowing widths are rejected
+PASS invalid and overflowing widths are rejected
+PASS invalid and overflowing widths are rejected
+PASS invalid and overflowing widths are rejected
+PASS missing values are rejected
+PASS service roles cannot accidentally enter application startup
+PASS attach is an explicit early service role
+PASS help and version never start a UI or attach helper
+PASS generic content selection is independent from tray presentation
+PASS service roles reject content selection
+PASS standalone is a startup option and cannot alter a service role
+PASS desktop diagnostics are a side-effect-free service role
+PASS an isolated desktop without Explorer is diagnosed before patch loading
+PASS an absent shell on the current desktop is distinguished from desktop isolation
+PASS a shell on the current desktop remains usable when the input desktop changes
+PASS missing desktop-name permission does not fabricate a desktop mismatch
+PASS shell schemas are independent content choices
+PASS default command packet is accepted
+PASS untrusted content indices are rejected
+PASS last supported content index is accepted
+PASS old command packet versions are rejected
+PASS protocol size and version are validated
+PASS incompatible protocols are rejected
+PASS concurrent snapshot readers never observe mixed settings revisions
+PASS diagnostic prefix and interlocked alignment remain stable
+All CLI and protocol checks passed
+FrameworkSelfTest.cpp
+PASS arbitrary client content opens in a real transparent XAML island
+PASS control gallery is loaded and arranged
+PASS all six native control categories are instantiated
+PASS a real button exposes an AutomationPeer
+PASS UI Automation Invoke reaches the button action
+PASS native toggle events reach the client
+PASS text input accepts keyboard focus
+PASS text input emits native change notifications
+PASS slider events update the real progress control
+PASS native selection changes reach the client
+PASS all three list rows fit without clipping or an inner scrollbar
+PASS the list grows to fit doubled text instead of clipping the last row
+PASS restoring system typography keeps every row visible
+PASS selecting the fully visible last row notifies the client
+PASS the last list row accepts keyboard focus
+PASS native list keyboard focus reaches the island window
+PASS Home selects the first row through native keyboard handling
+PASS client controls inherit the selected light or dark theme
+PASS all list rows remain visible after a live theme change
+PASS client controls inherit the selected light or dark theme
+PASS all list rows remain visible after a live theme change
+PASS compact navigation starts closed so its first opening runs the native transition
+PASS navigation exposes its native pane toggle
+PASS a real button exposes an AutomationPeer
+PASS opening navigation preserves its compact overlay mode
+PASS a real button exposes an AutomationPeer
+PASS the native navigation toggle completes closing on every cycle
+PASS a real button exposes an AutomationPeer
+PASS opening navigation preserves its compact overlay mode
+PASS a real button exposes an AutomationPeer
+PASS the native navigation toggle completes closing on every cycle
+PASS a real button exposes an AutomationPeer
+PASS opening navigation preserves its compact overlay mode
+PASS a real button exposes an AutomationPeer
+PASS the native navigation toggle completes closing on every cycle
+PASS first and repeated navigation toggles emit all native pane-state notifications
+PASS a real button exposes an AutomationPeer
+PASS ContentDialog is hosted in the island XamlRoot
+PASS Escape is offered to child controls before the flyout host
+PASS closing a modal dialog preserves its owning panel
+PASS a real button exposes an AutomationPeer
+PASS replacing client content unloads the old page and its dialog
+PASS oversize content and shadow remain inside the monitor work area
+PASS animated closing completes and clears visibility
+PASS disabled animations produce a completed opening
+PASS disabled animations produce a completed closing
+PASS same-process activation preserves the owning panel and its popups
+PASS the tray press is left to its release toggle without reopening the panel
+PASS external deactivation retains the surface until its exit completes
+PASS a tray callback during exit cannot reverse the committed close
+PASS deactivation during opening interrupts the entrance with an exit
+PASS cancelled entrance completion cannot reopen a dismissed panel
+PASS visibility callbacks track complete panel cycles
+All isolated framework and native-control checks passed. Explorer was not modified.
+HostChecks.cpp
+PASS independent consumer creates a native host
+PASS scheme reaches Open after composition completion
+PASS tray press retains the visible surface until release
+PASS tray release starts an exit animation
+PASS tray release completes exactly one close
+PASS foreign activation keeps surface alive during exit
+PASS outside activation reaches Closed
+PASS dismiss during entrance cannot resurrect the panel
+PASS scheme reaches Open after composition completion
+PASS tray press retains the visible surface until release
+PASS tray release starts an exit animation
+PASS tray release completes exactly one close
+PASS foreign activation keeps surface alive during exit
+PASS outside activation reaches Closed
+PASS dismiss during entrance cannot resurrect the panel
+PASS scheme reaches Open after composition completion
+PASS tray press retains the visible surface until release
+PASS tray release starts an exit animation
+PASS tray release completes exactly one close
+PASS foreign activation keeps surface alive during exit
+PASS outside activation reaches Closed
+PASS dismiss during entrance cannot resurrect the panel
+PASS live model updates do not echo application commands
+PASS live state update preserves the open panel
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS context menu opens with an independent material
+PASS context menu releases its popup on Hide
+PASS custom content retains its real UI Automation peer
+PASS UI Automation invokes the client action once
+MEASURE cycles=100 private_before=66027520 private_after=65830912 gdi_before=7 gdi_after=7
+PASS 100 cycles stay within the bounded memory allowance
+PASS 100 cycles do not accumulate GDI handles
+MEASURE idle_cpu_one_core_percent=0.000
+MEASURE visibility_callbacks=238
+PASS visibility transitions are delivered to the consuming application
+Built Release: MSVC 14.51.36231, Windows SDK 10.0.26100.0 -> C:\Users\Yata\Desktop\Download\project\artifacts\candidate

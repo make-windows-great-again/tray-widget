@@ -1,0 +1,86 @@
+[
+  {
+    "Ms": 1441.1352,
+    "Event": "lang-hover"
+  },
+  {
+    "Ms": 2357.4359,
+    "Event": "lang-open"
+  },
+  {
+    "Ms": 3627.8815,
+    "Event": "lang-toggle-close"
+  },
+  {
+    "Ms": 4398.5882,
+    "Event": "lang-open-again"
+  },
+  {
+    "Ms": 5165.2704,
+    "Event": "lang-outside-close"
+  },
+  {
+    "Ms": 5923.5968,
+    "Event": "lang-context"
+  },
+  {
+    "Ms": 6898.9228,
+    "Event": "lang-context-escape"
+  },
+  {
+    "Ms": 7412.1974,
+    "Event": "quick-hover"
+  },
+  {
+    "Ms": 8320.2425,
+    "Event": "quick-open"
+  },
+  {
+    "Ms": 9581.7143,
+    "Event": "quick-toggle-close"
+  },
+  {
+    "Ms": 10348.8739,
+    "Event": "quick-open-again"
+  },
+  {
+    "Ms": 11115.0942,
+    "Event": "quick-outside-close"
+  },
+  {
+    "Ms": 11881.8136,
+    "Event": "quick-context"
+  },
+  {
+    "Ms": 12836.5118,
+    "Event": "quick-context-escape"
+  },
+  {
+    "Ms": 13340.3593,
+    "Event": "date-hover"
+  },
+  {
+    "Ms": 14252.4496,
+    "Event": "date-open"
+  },
+  {
+    "Ms": 15519.0582,
+    "Event": "date-toggle-close"
+  },
+  {
+    "Ms": 16273.3121,
+    "Event": "date-open-again"
+  },
+  {
+    "Ms": 17033.3644,
+    "Event": "date-outside-close"
+  },
+  {
+    "Ms": 17790.0452,
+    "Event": "date-context"
+  },
+  {
+    "Ms": 18752.7664,
+    "Event": "date-context-escape"
+  }
+]

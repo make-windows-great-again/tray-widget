@@ -1,0 +1,9 @@
+{
+  "Name": "cpp-dark",
+  "Frames": 2747,
+  "Duration": 19.1,
+  "MeanIntervalMs": 6.95557174071368,
+  "MedianIntervalMs": 4.16699999999981,
+  "P95IntervalMs": 16.666999999999987,
+  "MaxIntervalMs": 112.5
+}

@@ -1,0 +1,8 @@
+
+Name                       Action   InitialTopPx FinalTopPx ObservedMs MovingFrames MaxMovingCaptureGapMs
+----                       ------   ------------ ---------- ---------- ------------ ---------------------
+native-light-interactions  Collapse       826.00    1360.00     220.83           53                  8.33
+native-light-interactions  Expand        1360.00     826.00     220.83           56                  8.33
+cpp-light-interactions-v16 Collapse       826.00    1360.00     216.67           48                 16.60
+cpp-light-interactions-v16 Expand        1360.00     826.00     208.33           45                 12.50
+

@@ -1,0 +1,9 @@
+{
+  "Name": "tray-light",
+  "Frames": 3495,
+  "Duration": 28.375,
+  "MeanIntervalMs": 8.121064682312229,
+  "MedianIntervalMs": 4.16699999999981,
+  "P95IntervalMs": 33.332999999999835,
+  "MaxIntervalMs": 95.833
+}

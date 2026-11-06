@@ -1,0 +1,97 @@
+﻿{
+    "Target":  "network",
+    "Window":  {
+                   "Handle":  133450,
+                   "Class":  "Xaml_WindowedPopupClass",
+                   "Dpi":  144,
+                   "Bounds":  {
+                                  "left":  2159,
+                                  "top":  1346,
+                                  "right":  2558,
+                                  "bottom":  1537
+                              }
+               },
+    "Screenshot":  "reference-network-133450.png",
+    "Elements":  [
+                     {
+                         "Name":  "Popup",
+                         "Type":  "ControlType.Window",
+                         "X":  Infinity,
+                         "Y":  Infinity,
+                         "W":  -Infinity,
+                         "H":  -Infinity,
+                         "Font":  null,
+                         "FontSizeRaw":  null
+                     },
+                     {
+                         "Name":  "",
+                         "Type":  "ControlType.Menu",
+                         "X":  2174,
+                         "Y":  1349,
+                         "W":  368,
+                         "H":  161,
+                         "Font":  null,
+                         "FontSizeRaw":  null
+                     },
+                     {
+                         "Name":  "Diagnose network problems",
+                         "Type":  "ControlType.MenuItem",
+                         "X":  2182,
+                         "Y":  1357,
+                         "W":  352,
+                         "H":  41,
+                         "Font":  null,
+                         "FontSizeRaw":  null
+                     },
+                     {
+                         "Name":  "Diagnose network problems",
+                         "Type":  "ControlType.Text",
+                         "X":  2241,
+                         "Y":  1363,
+                         "W":  277,
+                         "H":  28,
+                         "Font":  "Segoe UI Variable",
+                         "FontSizeRaw":  14
+                     },
+                     {
+                         "Name":  "Perform speed test",
+                         "Type":  "ControlType.MenuItem",
+                         "X":  2182,
+                         "Y":  1409,
+                         "W":  352,
+                         "H":  41,
+                         "Font":  null,
+                         "FontSizeRaw":  null
+                     },
+                     {
+                         "Name":  "Perform speed test",
+                         "Type":  "ControlType.Text",
+                         "X":  2241,
+                         "Y":  1415,
+                         "W":  277,
+                         "H":  28,
+                         "Font":  "Segoe UI Variable",
+                         "FontSizeRaw":  14
+                     },
+                     {
+                         "Name":  "Network and Internet settings",
+                         "Type":  "ControlType.MenuItem",
+                         "X":  2182,
+                         "Y":  1461,
+                         "W":  352,
+                         "H":  41,
+                         "Font":  null,
+                         "FontSizeRaw":  null
+                     },
+                     {
+                         "Name":  "Network and Internet settings",
+                         "Type":  "ControlType.Text",
+                         "X":  2241,
+                         "Y":  1468,
+                         "W":  277,
+                         "H":  27,
+                         "Font":  "Segoe UI Variable",
+                         "FontSizeRaw":  14
+                     }
+                 ]
+}

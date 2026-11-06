@@ -1,0 +1,27 @@
+/artifacts/
+/bin/
+/sdk/
+*.zip
+*.user
+*.suo
+*.pdb
+*.obj
+*.ilk
+*.gray
+*.dmp
+# Full-desktop diagnostic snapshots and failed exploratory captures remain local.
+/evidence/**/desktop*.png
+/evidence/**/foreground-failure.json
+/evidence/**/language-window-candidates.json
+/evidence/**/settings-controls.json
+/evidence/shell-parity-26100/recordings/native.mp4
+/evidence/shell-parity-26100/dpi-v16/*
+!/evidence/shell-parity-26100/dpi-v16/baseline-matrix-core/
+!/evidence/shell-parity-26100/dpi-v16/native225-retry/
+!/evidence/shell-parity-26100/dpi-v16/accepted-light/
+!/evidence/shell-parity-26100/dpi-v16/accepted-dark/
+!/evidence/shell-parity-26100/dpi-v16/accepted-hot/
+!/evidence/shell-parity-26100/dpi-v16/accepted-context/
+!/evidence/shell-parity-26100/dpi-v16/acceptance.csv
+!/evidence/shell-parity-26100/dpi-v16/comparison.html
+!/evidence/shell-parity-26100/dpi-v16/REPORT.txt

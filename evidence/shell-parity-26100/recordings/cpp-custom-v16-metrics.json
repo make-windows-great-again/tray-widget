@@ -1,0 +1,9 @@
+{
+  "Name": "cpp-custom-v16",
+  "Frames": 2159,
+  "Duration": 19.0625,
+  "MeanIntervalMs": 8.83341056533822,
+  "MedianIntervalMs": 4.16699999999981,
+  "P95IntervalMs": 37.499999999999645,
+  "MaxIntervalMs": 195.83400000000006
+}

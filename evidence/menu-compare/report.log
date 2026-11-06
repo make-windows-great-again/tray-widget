@@ -1,0 +1,98 @@
+[
+  {
+    "Category": "network",
+    "Theme": "light",
+    "ReferenceWidthPx": 368.0,
+    "ReferenceHeightPx": 161.0,
+    "CurrentWidthPx": 369,
+    "CurrentHeightPx": 164,
+    "CopyWidthPx": 369,
+    "CopyHeightPx": 161,
+    "CopyHeightDeltaPx": 0.0,
+    "Dpi": 144
+  },
+  {
+    "Category": "network",
+    "Theme": "dark",
+    "ReferenceWidthPx": 368.0,
+    "ReferenceHeightPx": 161.0,
+    "CurrentWidthPx": 369,
+    "CurrentHeightPx": 164,
+    "CopyWidthPx": 369,
+    "CopyHeightPx": 161,
+    "CopyHeightDeltaPx": 0.0,
+    "Dpi": 144
+  },
+  {
+    "Category": "volume",
+    "Theme": "light",
+    "ReferenceWidthPx": 369.0,
+    "ReferenceHeightPx": 156.0,
+    "CurrentWidthPx": 370,
+    "CurrentHeightPx": 159,
+    "CopyWidthPx": 370,
+    "CopyHeightPx": 156,
+    "CopyHeightDeltaPx": 0.0,
+    "Dpi": 144
+  },
+  {
+    "Category": "volume",
+    "Theme": "dark",
+    "ReferenceWidthPx": 369.0,
+    "ReferenceHeightPx": 156.0,
+    "CurrentWidthPx": 370,
+    "CurrentHeightPx": 159,
+    "CopyWidthPx": 370,
+    "CopyHeightPx": 156,
+    "CopyHeightDeltaPx": 0.0,
+    "Dpi": 144
+  },
+  {
+    "Category": "battery",
+    "Theme": "light",
+    "ReferenceWidthPx": 321.0,
+    "ReferenceHeightPx": 57.0,
+    "CurrentWidthPx": 322,
+    "CurrentHeightPx": 58,
+    "CopyWidthPx": 322,
+    "CopyHeightPx": 57,
+    "CopyHeightDeltaPx": 0.0,
+    "Dpi": 144
+  },
+  {
+    "Category": "battery",
+    "Theme": "dark",
+    "ReferenceWidthPx": 321.0,
+    "ReferenceHeightPx": 57.0,
+    "CurrentWidthPx": 322,
+    "CurrentHeightPx": 58,
+    "CopyWidthPx": 322,
+    "CopyHeightPx": 57,
+    "CopyHeightDeltaPx": 0.0,
+    "Dpi": 144
+  },
+  {
+    "Category": "clock",
+    "Theme": "light",
+    "ReferenceWidthPx": 287.0,
+    "ReferenceHeightPx": 104.0,
+    "CurrentWidthPx": 288,
+    "CurrentHeightPx": 106,
+    "CopyWidthPx": 288,
+    "CopyHeightPx": 104,
+    "CopyHeightDeltaPx": 0.0,
+    "Dpi": 144
+  },
+  {
+    "Category": "clock",
+    "Theme": "dark",
+    "ReferenceWidthPx": 287.0,
+    "ReferenceHeightPx": 104.0,
+    "CurrentWidthPx": 288,
+    "CurrentHeightPx": 106,
+    "CopyWidthPx": 288,
+    "CopyHeightPx": 104,
+    "CopyHeightDeltaPx": 0.0,
+    "Dpi": 144
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "Captured": "2026-11-05T17:21:53.2269449-08:00",
+  "Build": "26100.9711",
+  "DisplayVersion": "24H2",
+  "Gpu": {
+    "Name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "CurrentHorizontalResolution": 2560,
+    "CurrentVerticalResolution": 1600,
+    "CurrentRefreshRate": 240,
+    "DriverVersion": "32.0.16.2101"
+  },
+  "ReferenceDpi": 144,
+  "Scale": 1.5,
+  "WorkArea": {
+    "Left": 0,
+    "Top": 0,
+    "Right": 2560,
+    "Bottom": 1528
+  },
+  "Theme": {
+    "AppsLight": 1,
+    "ShellLight": 1,
+    "Transparency": 1
+  },
+  "Backend": "Windows.UI.Xaml + C++/WinRT + Windows Composition",
+  "Capture": "DDAGrab 240 requested, dup_frames=0, NVENC H264, VFR",
+  "CppOpenTrigger": "WM_APP command; outside clicks and interaction tests use physical pointer input"
+}

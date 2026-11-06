@@ -1,0 +1,43 @@
+﻿{
+    "Date":  "2026-11-05",
+    "States":  46,
+    "Frames":  64,
+    "Dpi":  144,
+    "RasterScale":  1.5,
+    "SystemTextScale":  1,
+    "HighContrast":  false,
+    "ThemeCases":  [
+                       "local-light",
+                       "local-dark",
+                       "local-custom-palette"
+                   ],
+    "Findings":  [
+                     "V01 P1 open menu theme mismatch",
+                     "V02 P1 light dialog in dark owner",
+                     "V03 P2 list viewport clips last row",
+                     "V04 P2 inconsistent control and popup styles",
+                     "V05 P2 partial custom palette",
+                     "V06 P2 fixed gallery dimensions and oversized pivot headers"
+                 ],
+    "List":  {
+                 "FullRowPx":  60,
+                 "LastVisibleRowPx":  42,
+                 "ViewportDip":  108,
+                 "RowDip":  40,
+                 "ViewportPx":  162
+             },
+    "Typography":  {
+                       "Family":  "Segoe UI Variable",
+                       "BodyAndMenuDip":  14,
+                       "PivotHeaderDip":  24,
+                       "CaptionDip":  12
+                   },
+    "GallerySurface":  {
+                           "HeightDip":  582.666667,
+                           "HeightPx":  874,
+                           "WidthPx":  900,
+                           "WidthDip":  600
+                       },
+    "OtherPhysicalDpiVerified":  false,
+    "ProductionBinariesChanged":  false
+}

@@ -1,0 +1,68 @@
+Input #0, lavfi, from 'ddagrab=framerate=240:draw_mouse=1:video_size=1120x1600:offset_x=1440:offset_y=0:dup_frames=0':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, d3d11, 1120x1600 [SAR 1:1 DAR 7:10], 240 fps, 240 tbr, 1000k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> h264 (h264_nvenc))
+Press [q] to stop, [?] for help
+Output #0, mp4, to 'C:\Users\Yata\Desktop\Download\project\evidence\shell-parity-26100\recordings\cpp-light-v16.mp4':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), bgra(pc, gbr/bt709/iec61966-2-1, progressive), 1120x1600 [SAR 1:1 DAR 7:10], q=2-31, 240 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 h264_nvenc
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    6 fps=0.0 q=10.0 size=       0KiB time=00:00:00.31 bitrate=   1.2kbits/s speed=0.596x elapsed=0:00:00.52    frame=   15 fps= 15 q=10.0 size=       0KiB time=00:00:00.78 bitrate=   0.5kbits/s speed=0.758x elapsed=0:00:01.03    frame=   25 fps= 16 q=10.0 size=       0KiB time=00:00:01.32 bitrate=   0.3kbits/s speed=0.855x elapsed=0:00:01.54    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 26496, current: 26496; changing to 26497. This may result in incorrect timestamps in the output file.
+frame=  106 fps= 51 q=10.0 size=       0KiB time=00:00:02.01 bitrate=   0.2kbits/s speed=0.974x elapsed=0:00:02.06    frame=  179 fps= 70 q=10.0 size=     256KiB time=00:00:02.31 bitrate= 905.4kbits/s speed= 0.9x elapsed=0:00:02.57    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 42752, current: 42752; changing to 42753. This may result in incorrect timestamps in the output file.
+frame=  257 fps= 83 q=10.0 size=     256KiB time=00:00:03.04 bitrate= 688.7kbits/s speed=0.983x elapsed=0:00:03.09    frame=  343 fps= 95 q=10.0 size=     256KiB time=00:00:03.55 bitrate= 590.9kbits/s speed=0.984x elapsed=0:00:03.60    frame=  384 fps= 93 q=10.0 size=     256KiB time=00:00:03.73 bitrate= 561.8kbits/s speed=0.903x elapsed=0:00:04.13    frame=  484 fps=104 q=10.0 size=     256KiB time=00:00:04.50 bitrate= 465.7kbits/s speed=0.971x elapsed=0:00:04.63    frame=  493 fps= 95 q=10.0 size=     256KiB time=00:00:04.54 bitrate= 461.8kbits/s speed=0.879x elapsed=0:00:05.16    frame=  499 fps= 88 q=10.0 size=     256KiB time=00:00:04.82 bitrate= 435.1kbits/s speed=0.85x elapsed=0:00:05.67    frame=  510 fps= 82 q=10.0 size=     256KiB time=00:00:05.54 bitrate= 378.2kbits/s speed=0.897x elapsed=0:00:06.18    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 101376, current: 101376; changing to 101377. This may result in incorrect timestamps in the output file.
+frame=  553 fps= 82 q=10.0 size=     512KiB time=00:00:06.62 bitrate= 633.6kbits/s speed=0.987x elapsed=0:00:06.71    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 103360, current: 103360; changing to 103361. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 103808, current: 103808; changing to 103809. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 104896, current: 104896; changing to 104897. This may result in incorrect timestamps in the output file.
+frame=  597 fps= 83 q=10.0 size=     512KiB time=00:00:06.84 bitrate= 612.7kbits/s speed=0.948x elapsed=0:00:07.21    frame=  617 fps= 80 q=10.0 size=     512KiB time=00:00:07.67 bitrate= 546.2kbits/s speed=0.994x elapsed=0:00:07.72    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 118144, current: 118144; changing to 118145. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 118336, current: 118336; changing to 118337. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 119040, current: 119040; changing to 119041. This may result in incorrect timestamps in the output file.
+frame=  728 fps= 88 q=10.0 size=     512KiB time=00:00:08.14 bitrate= 515.2kbits/s speed=0.987x elapsed=0:00:08.25    frame=  816 fps= 93 q=10.0 size=     768KiB time=00:00:08.57 bitrate= 734.1kbits/s speed=0.977x elapsed=0:00:08.77    frame=  897 fps= 96 q=10.0 size=     768KiB time=00:00:09.24 bitrate= 680.5kbits/s speed=0.994x elapsed=0:00:09.29    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 148992, current: 148992; changing to 148993. This may result in incorrect timestamps in the output file.
+frame=  981 fps=100 q=10.0 size=     768KiB time=00:00:09.72 bitrate= 646.7kbits/s speed=0.991x elapsed=0:00:09.82    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 151040, current: 151040; changing to 151041. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 151424, current: 151424; changing to 151425. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 152384, current: 152384; changing to 152385. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 152512, current: 152512; changing to 152513. This may result in incorrect timestamps in the output file.
+frame= 1032 fps=100 q=10.0 size=    1024KiB time=00:00:09.97 bitrate= 840.7kbits/s speed=0.966x elapsed=0:00:10.32    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 163072, current: 163072; changing to 163073. This may result in incorrect timestamps in the output file.
+frame= 1118 fps=103 q=10.0 size=    1024KiB time=00:00:10.79 bitrate= 777.1kbits/s speed=0.995x elapsed=0:00:10.85    frame= 1129 fps= 99 q=10.0 size=    1024KiB time=00:00:10.84 bitrate= 773.8kbits/s speed=0.954x elapsed=0:00:11.36    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 178048, current: 178048; changing to 178049. This may result in incorrect timestamps in the output file.
+frame= 1216 fps=102 q=10.0 size=    1280KiB time=00:00:11.70 bitrate= 895.6kbits/s speed=0.985x elapsed=0:00:11.88    frame= 1222 fps= 99 q=10.0 size=    1280KiB time=00:00:11.73 bitrate= 893.4kbits/s speed=0.947x elapsed=0:00:12.39    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 197312, current: 197312; changing to 197313. This may result in incorrect timestamps in the output file.
+frame= 1309 fps=101 q=10.0 size=    1280KiB time=00:00:12.85 bitrate= 816.0kbits/s speed=0.996x elapsed=0:00:12.90    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 203584, current: 203584; changing to 203585. This may result in incorrect timestamps in the output file.
+frame= 1420 fps=106 q=10.0 size=    1536KiB time=00:00:13.37 bitrate= 941.1kbits/s speed=0.996x elapsed=0:00:13.42    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 206208, current: 206208; changing to 206209. This may result in incorrect timestamps in the output file.
+frame= 1461 fps=105 q=10.0 size=    1536KiB time=00:00:13.88 bitrate= 906.4kbits/s speed=0.996x elapsed=0:00:13.93    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 213184, current: 213184; changing to 213185. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 214976, current: 214976; changing to 214977. This may result in incorrect timestamps in the output file.
+frame= 1575 fps=109 q=10.0 size=    1536KiB time=00:00:14.35 bitrate= 876.6kbits/s speed=0.993x elapsed=0:00:14.45    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 223808, current: 223808; changing to 223809. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 224640, current: 224640; changing to 224641. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 225216, current: 225216; changing to 225217. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 225472, current: 225472; changing to 225473. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 226880, current: 226880; changing to 226881. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 227136, current: 227136; changing to 227137. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 228032, current: 228032; changing to 228033. This may result in incorrect timestamps in the output file.
+frame= 1663 fps=111 q=10.0 size=    1792KiB time=00:00:14.85 bitrate= 988.6kbits/s speed=0.992x elapsed=0:00:14.96    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 236800, current: 236800; changing to 236801. This may result in incorrect timestamps in the output file.
+frame= 1694 fps=109 q=10.0 size=    1792KiB time=00:00:15.43 bitrate= 951.2kbits/s speed=0.996x elapsed=0:00:15.49    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 244608, current: 244608; changing to 244609. This may result in incorrect timestamps in the output file.
+frame= 1783 fps=111 q=10.0 size=    1792KiB time=00:00:15.94 bitrate= 920.6kbits/s speed=0.997x elapsed=0:00:15.99    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 244864, current: 244864; changing to 244865. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 245056, current: 245056; changing to 245057. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 245312, current: 245312; changing to 245313. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 245440, current: 245440; changing to 245441. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 246592, current: 246592; changing to 246593. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 247488, current: 247488; changing to 247489. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 248000, current: 248000; changing to 248001. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 248512, current: 248512; changing to 248513. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 248768, current: 248768; changing to 248769. This may result in incorrect timestamps in the output file.
+frame= 1848 fps=112 q=10.0 size=    2048KiB time=00:00:16.21 bitrate=1034.9kbits/s speed=0.981x elapsed=0:00:16.52    frame= 1916 fps=113 q=10.0 size=    2048KiB time=00:00:16.97 bitrate= 988.4kbits/s speed=0.997x elapsed=0:00:17.02    [vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 263872, current: 263872; changing to 263873. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 264128, current: 264128; changing to 264129. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 264384, current: 264384; changing to 264385. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 264768, current: 264768; changing to 264769. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 265024, current: 265024; changing to 265025. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 265280, current: 265280; changing to 265281. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 266112, current: 266112; changing to 266113. This may result in incorrect timestamps in the output file.
+[vost#0:0/h264_nvenc @ 0000022fdba7fb80] Non-monotonic DTS; previous: 268096, current: 268096; changing to 268097. This may result in incorrect timestamps in the output file.
+frame= 2024 fps=115 q=10.0 size=    2304KiB time=00:00:17.46 bitrate=1080.6kbits/s speed=0.995x elapsed=0:00:17.54    frame= 2043 fps=113 q=10.0 size=    2304KiB time=00:00:17.87 bitrate=1056.2kbits/s speed=0.99x elapsed=0:00:18.05    frame= 2120 fps=114 q=10.0 size=    2304KiB time=00:00:18.32 bitrate=1029.8kbits/s speed=0.986x elapsed=0:00:18.58    
+
+[q] command received. Exiting.
+
+[out#0/mp4 @ 0000022fdbe07940] video:2411KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.522804%
+frame= 2142 fps=112 q=10.0 Lsize=    2424KiB time=00:00:19.06 bitrate=1041.7kbits/s speed=0.993x elapsed=0:00:19.19    
+
