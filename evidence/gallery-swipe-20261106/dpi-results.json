@@ -1,0 +1,62 @@
+{
+  "InitialScale": 150,
+  "FinalDpi": 144,
+  "Cases": [
+    {
+      "Scale": 250,
+      "Dpi": 240,
+      "Theme": "light",
+      "Passed": true,
+      "Directory": "accepted-250-light"
+    },
+    {
+      "Scale": 250,
+      "Dpi": 240,
+      "Theme": "dark",
+      "Passed": true,
+      "Directory": "accepted-250-dark"
+    },
+    {
+      "Scale": 100,
+      "Dpi": 96,
+      "Theme": "light",
+      "Passed": true,
+      "Directory": "accepted-100-light"
+    },
+    {
+      "Scale": 100,
+      "Dpi": 96,
+      "Theme": "dark",
+      "Passed": true,
+      "Directory": "accepted-100-dark"
+    },
+    {
+      "Scale": 150,
+      "Dpi": 144,
+      "Theme": "light",
+      "Passed": true,
+      "Directory": "accepted-150-light"
+    },
+    {
+      "Scale": 150,
+      "Dpi": 144,
+      "Theme": "dark",
+      "Passed": true,
+      "Directory": "accepted-150-dark"
+    },
+    {
+      "Scale": 200,
+      "Dpi": 192,
+      "Theme": "light",
+      "Passed": true,
+      "Directory": "accepted-200-light"
+    },
+    {
+      "Scale": 200,
+      "Dpi": 192,
+      "Theme": "dark",
+      "Passed": true,
+      "Directory": "accepted-200-dark"
+    }
+  ]
+}

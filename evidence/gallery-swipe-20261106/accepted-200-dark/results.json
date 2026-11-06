@@ -1,0 +1,48 @@
+{
+  "Variant": "Release",
+  "SHA256": "B965217FF187833928C35B922AF49137C9DA269BCBCA6CB213A767E1B497B481",
+  "Dpi": 192,
+  "Input": "Injected touch, not physical precision touchpad",
+  "RequestedCaptureRate": 0,
+  "ChecksRequested": true,
+  "ChecksPassed": true,
+  "Dark": true,
+  "Results": [
+    {
+      "Gesture": "long-left",
+      "Before": 2,
+      "InjectedTouch": true,
+      "After": 4,
+      "RealizedPages": 6,
+      "Offset": 852,
+      "Viewport": 213
+    },
+    {
+      "Gesture": "long-right",
+      "Before": 4,
+      "InjectedTouch": true,
+      "After": 2,
+      "RealizedPages": 6,
+      "Offset": 426,
+      "Viewport": 213
+    },
+    {
+      "Gesture": "first-edge",
+      "Before": 0,
+      "InjectedTouch": true,
+      "After": 0,
+      "RealizedPages": 6,
+      "Offset": 0,
+      "Viewport": 213
+    },
+    {
+      "Gesture": "last-edge",
+      "Before": 5,
+      "InjectedTouch": true,
+      "After": 5,
+      "RealizedPages": 6,
+      "Offset": 1065,
+      "Viewport": 213
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 #define NATIVE_FLYOUT_SELFTEST
 #include "NativeFlyout.h"
 #include "NativeControls.h"
+#include "NativePageStripChecks.h"
 #include "SamplePanel.h"
 #include <winrt/Windows.UI.Xaml.Automation.Peers.h>
 #include <winrt/Windows.UI.Xaml.Automation.Provider.h>
@@ -80,6 +81,7 @@ int main(){
             Check(gallery.IsLoaded()&&gallery.ActualWidth()>0,"control gallery is loaded and arranged");
             auto pages=gallery.FindName(L"ControlPages").as<c::Pivot>();
             Check(pages.Items().Size()==6,"all six native control categories are instantiated");
+            CheckPageStrip(gallery,Pump,Check);
             auto status=gallery.FindName(L"ActionStatus").as<c::TextBlock>();auto before=status.Text();
             Invoke(gallery.FindName(L"ActionButton").as<c::Button>());
             Check(status.Text()!=before,"UI Automation Invoke reaches the button action");

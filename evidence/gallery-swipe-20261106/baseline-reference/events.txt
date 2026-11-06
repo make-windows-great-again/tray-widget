@@ -1,0 +1,7 @@
+2250 selection=2 body=147333.328 pivot=147333.328
+6266 selection=4 body=148511.984 pivot=148511.984
+10219 selection=2 body=147922.672 pivot=147922.672
+10953 selection=0 body=147922.672 pivot=147922.672
+14875 selection=4 body=148512.000 pivot=148512.000
+15594 selection=5 body=148512.000 pivot=148512.000
+19485 selection=1 body=149396.000 pivot=149396.000

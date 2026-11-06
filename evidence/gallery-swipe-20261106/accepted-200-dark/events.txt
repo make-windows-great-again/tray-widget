@@ -1,0 +1,72 @@
+1406 selection=2 body=0.000 pivot=0.000
+2891 selection=3 body=534.332 pivot=426.000
+4063 selection=4 body=747.158 pivot=639.000
+7047 selection=3 body=744.556 pivot=852.000
+8172 selection=2 body=530.105 pivot=639.000
+10453 selection=0 body=426.000 pivot=426.000
+11328 focus selected=0 direction=6 state=1 cancel=0 target=SwitchAction
+13672 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+15406 selection=5 body=0.000 pivot=0.000
+15906 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+20531 selection=0 body=0.000 pivot=1065.000
+20531 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+20594 selection=1 body=213.000 pivot=1065.000
+20594 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+20719 selection=2 body=426.000 pivot=213.000
+20719 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+20860 selection=3 body=639.000 pivot=426.000
+20860 focus selected=3 direction=6 state=1 cancel=0 target=
+20985 selection=4 body=852.000 pivot=639.000
+20985 focus selected=4 direction=6 state=1 cancel=0 target=
+21110 selection=5 body=1065.000 pivot=852.000
+21110 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+21297 selection=4 body=852.000 pivot=1065.000
+21297 focus selected=4 direction=6 state=1 cancel=0 target=
+21422 selection=3 body=639.000 pivot=852.000
+21422 focus selected=3 direction=6 state=1 cancel=0 target=
+21563 selection=2 body=426.000 pivot=639.000
+21563 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+21688 selection=1 body=213.000 pivot=426.000
+21688 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+21813 selection=0 body=0.000 pivot=213.000
+21828 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+21906 selection=5 body=1065.000 pivot=213.000
+21922 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+21953 selection=0 body=0.000 pivot=1065.000
+21953 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+21985 selection=4 body=0.000 pivot=1065.000
+22485 focus selected=4 direction=6 state=1 cancel=0 target=
+22516 selection=1 body=852.000 pivot=852.000
+23016 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+23047 selection=5 body=213.000 pivot=213.000
+23563 selection=0 body=1064.995 pivot=1065.000
+24063 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+24094 selection=2 body=0.000 pivot=0.000
+24594 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+24625 selection=5 body=426.000 pivot=426.000
+24656 selection=1 body=433.393 pivot=426.000
+24688 selection=3 body=454.050 pivot=426.000
+25188 focus selected=3 direction=6 state=1 cancel=0 target=
+25610 selection=2 body=639.000 pivot=639.000
+26110 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+26672 selection=3 body=426.000 pivot=426.000
+27156 focus selected=3 direction=6 state=1 cancel=0 target=
+27172 focus selected=3 direction=6 state=3 cancel=1 target=TextInput
+27422 selection=1 body=639.000 pivot=639.000
+27922 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+27953 selection=5 body=213.000 pivot=213.000
+28438 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+29000 selection=4 body=1065.000 pivot=1065.000
+30016 selection=1 body=852.000 pivot=852.000
+30672 focus selected=1 direction=6 state=3 cancel=0 target=HeaderClipper
+30672 focus selected=1 direction=6 state=2 cancel=0 target=TextInput
+30844 selection=2 body=213.000 pivot=213.000
+31328 focus selected=2 direction=6 state=2 cancel=0 target=ComboInput
+31625 selection=3 body=426.000 pivot=426.000
+32125 focus selected=3 direction=6 state=2 cancel=0 target=
+32453 selection=2 body=639.000 pivot=639.000
+32953 focus selected=2 direction=6 state=2 cancel=0 target=ComboInput
+33094 selection=5 body=426.000 pivot=426.000
+33594 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+34156 selection=0 body=1065.000 pivot=1065.000
+34672 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton

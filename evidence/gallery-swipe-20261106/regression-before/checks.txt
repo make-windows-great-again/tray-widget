@@ -1,0 +1,918 @@
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS header carousel is disabled
+PASS native snapping allows multiple pages per gesture
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page selection and viewport settle together
+PASS page selection and viewport settle together
+PASS page selection and viewport settle together
+PASS page selection and viewport settle together
+PASS page selection and viewport settle together
+PASS page selection and viewport settle together
+PASS page selection and viewport settle together
+PASS page selection and viewport settle together
+PASS page selection and viewport settle together
+PASS input state survives long and interrupted page changes
+PASS page selection and viewport settle together
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page selection and viewport settle together
+PASS finite viewport contains all six page slots
+PASS scroll extent stops at the first and last page
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS page content stays realized and arranged
+PASS page slots tile continuously without gaps or overlaps
+PASS each page clips content to its own slot
+PASS offscreen input is reported offscreen to accessibility
+FAIL page selection and viewport settle together
+FAIL gallery checks or reload
+FAIL: 916 checks at 240 DPI

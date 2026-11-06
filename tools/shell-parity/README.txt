@@ -52,3 +52,21 @@ Measure-CardMotion.ps1 traces the inter-card gap and reports collapse/expand tim
 Measure-Motion.ps1 accepts -Tags and -OutputName to compare a newer build without
 replacing the baseline CSV. Build-DateReport.ps1 creates the current comparison.
 ShellBench key 4 demonstrates public CardSection and Host::SetSections.
+
+Control gallery / long swipes (no Explorer patch or tray process):
+  .\tools\shell-parity\Build-GallerySwipe.ps1
+  .\tools\shell-parity\Test-GallerySwipe.ps1 -Label accepted-local -Checks -Record
+  .\tools\shell-parity\Test-GalleryDpi.ps1 -Record
+The last command requires Display Settings open and restores the original scale.
+It tests 100/150/200/250% in light/dark themes; -Record records the 150% cases.
+The bench uses real XAML Islands and InjectTouchInput, not a physical touchpad.
+Ctrl+Tab/PageUp/PageDown use injected keyboard input directed to the owned island.
+The shared NativePageStripChecks also run under Build.ps1 -SelfTest.
+The narrow 500 px window leaves desktop space for multi-page contact motion;
+-Width 700 provides a wider visual comparison. Capture profile: 2560x1600 desktop.
+The trace records layout offsets, not compositor presentation timestamps.
+For an old Pivot reference, copy the previous NativeControls.h to the ignored
+artifacts/gallery-baseline directory, then Build-GallerySwipe.ps1 -Baseline and
+Test-GallerySwipe.ps1 -Variant baseline -Label baseline-reference -Record.
+Do not pass -Checks to the old baseline; finite-scroll assertions target the fix.
+Videos require the same FFmpeg/NVIDIA setup described above. GUI tests are serial.

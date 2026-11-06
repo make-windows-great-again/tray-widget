@@ -14,6 +14,14 @@
 /evidence/**/foreground-failure.json
 /evidence/**/language-window-candidates.json
 /evidence/**/settings-controls.json
+/evidence/gallery-swipe-20261106/*
+!/evidence/gallery-swipe-20261106/accepted-*/
+!/evidence/gallery-swipe-20261106/baseline-reference/
+!/evidence/gallery-swipe-20261106/regression-before/
+!/evidence/gallery-swipe-20261106/dpi-results.json
+!/evidence/gallery-swipe-20261106/REPORT.txt
+!/evidence/gallery-swipe-20261106/release-tests.log
+!/evidence/gallery-swipe-20261106/debug-tests.log
 /evidence/shell-parity-26100/recordings/native.mp4
 /evidence/shell-parity-26100/dpi-v16/*
 !/evidence/shell-parity-26100/dpi-v16/baseline-matrix-core/

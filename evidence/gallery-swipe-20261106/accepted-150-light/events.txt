@@ -1,0 +1,73 @@
+1937 selection=2 body=0.000 pivot=0.000
+3250 selection=3 body=737.724 pivot=589.333
+4172 selection=4 body=1035.278 pivot=884.000
+7468 selection=3 body=1029.707 pivot=1178.667
+8390 selection=2 body=735.186 pivot=884.000
+11109 selection=0 body=589.333 pivot=589.333
+12000 focus selected=0 direction=6 state=1 cancel=0 target=SwitchAction
+14265 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+15984 selection=5 body=0.000 pivot=0.000
+16468 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+21062 selection=0 body=0.000 pivot=1473.333
+21062 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+21125 selection=1 body=294.667 pivot=1473.333
+21125 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+21250 selection=2 body=589.333 pivot=294.667
+21250 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+21375 selection=3 body=884.000 pivot=589.333
+21375 focus selected=3 direction=6 state=1 cancel=0 target=
+21500 selection=4 body=1178.667 pivot=884.000
+21500 focus selected=4 direction=6 state=1 cancel=0 target=
+21625 selection=5 body=1473.333 pivot=1178.667
+21625 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+21828 selection=4 body=1178.667 pivot=1473.333
+21828 focus selected=4 direction=6 state=1 cancel=0 target=
+21953 selection=3 body=884.000 pivot=1178.667
+21953 focus selected=3 direction=6 state=1 cancel=0 target=
+22078 selection=2 body=589.333 pivot=884.000
+22078 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+22203 selection=1 body=294.667 pivot=589.333
+22203 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+22328 selection=0 body=0.000 pivot=294.667
+22328 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+22422 selection=5 body=1473.333 pivot=294.667
+22422 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+22453 selection=0 body=0.000 pivot=1473.333
+22453 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+22484 selection=4 body=0.000 pivot=1473.333
+23000 focus selected=4 direction=6 state=1 cancel=0 target=
+23031 selection=1 body=1178.667 pivot=1178.667
+23547 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+23562 selection=5 body=294.667 pivot=294.667
+24062 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+24078 selection=0 body=1473.333 pivot=1473.333
+24578 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+24609 selection=2 body=0.000 pivot=0.000
+25125 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+25156 selection=5 body=589.333 pivot=589.333
+25203 selection=1 body=600.682 pivot=589.333
+25234 selection=3 body=627.210 pivot=589.333
+25734 focus selected=3 direction=6 state=1 cancel=0 target=
+26172 selection=2 body=884.000 pivot=884.000
+26656 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+27218 selection=3 body=589.333 pivot=589.333
+27703 focus selected=3 direction=6 state=1 cancel=0 target=
+27718 focus selected=3 direction=6 state=3 cancel=1 target=TextInput
+27968 selection=1 body=884.000 pivot=884.000
+28468 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+28484 selection=5 body=294.667 pivot=294.667
+28984 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+29531 selection=4 body=1473.333 pivot=1473.333
+30562 selection=1 body=1178.667 pivot=1178.667
+31234 focus selected=1 direction=6 state=3 cancel=0 target=HeaderClipper
+31234 focus selected=1 direction=6 state=2 cancel=0 target=TextInput
+31390 selection=2 body=294.667 pivot=294.667
+31890 focus selected=2 direction=6 state=2 cancel=0 target=ComboInput
+32156 selection=3 body=589.333 pivot=589.333
+32656 focus selected=3 direction=6 state=2 cancel=0 target=
+33000 selection=2 body=884.000 pivot=884.000
+33484 focus selected=2 direction=6 state=2 cancel=0 target=ComboInput
+33672 selection=5 body=589.333 pivot=589.333
+34172 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+34765 selection=0 body=1473.333 pivot=1473.333
+35265 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton

@@ -27,3 +27,4 @@
 "F26","P1","Calendar DPI cache","OPEN","Resolve cached item measurement without ClearValue or loss of view state","native body heights at all DPI after hot and cold moves","D16 D17"
 "F27","P1","expired diagnostics handles","FIXED_TESTED","Ignore only ERROR_NOT_FOUND for the affected discovery handle; retain containment for other failures","Later valid Add still applies and stale callbacks do not disable the session","L04"
 "F28","P2","framework startup test timing","OPEN","Capture phase and foreground on the sporadic 450 ms Open assertion; establish bounded state wait independently of animation timing","Fresh startup has a reproducible oracle and preserves first failure evidence","L06"
+"F29","P1","gallery long swipe blank pages","FIXED_SYNTHETIC_TESTED","Complete manual physical Precision Touchpad acceptance","Finite multi-page strip with all six pages arranged; first and last edges stop; focus and vertical bring-into-view remain correct","G01 G02 G03"

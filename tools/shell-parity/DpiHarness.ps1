@@ -49,9 +49,12 @@ function Set-DisplayScale([ValidateSet(100,125,150,175,200,225,250,300)][int]$Pe
  $selected=$control.GetCurrentPattern([Windows.Automation.SelectionPattern]::Pattern).Current.GetSelection()
  if($selected.Count-eq1-and$selected[0].Current.Name-match('^'+$Percent+'%')){return}
  $control.GetCurrentPattern([Windows.Automation.ExpandCollapsePattern]::Pattern).Expand()
- Start-Sleep -Milliseconds 180
- $items=$control.FindAll([Windows.Automation.TreeScope]::Descendants,[Windows.Automation.PropertyCondition]::new([Windows.Automation.AutomationElement]::ControlTypeProperty,[Windows.Automation.ControlType]::ListItem))
- $item=$items|Where-Object {$_.Current.Name-match('^'+$Percent+'%(\s|$)')}|Select-Object -First 1
+ $until=[DateTime]::UtcNow.AddSeconds(3)
+ do{
+  $items=$control.FindAll([Windows.Automation.TreeScope]::Descendants,[Windows.Automation.PropertyCondition]::new([Windows.Automation.AutomationElement]::ControlTypeProperty,[Windows.Automation.ControlType]::ListItem))
+  $item=$items|Where-Object {$_.Current.Name-match('^'+$Percent+'%(\s|$)')}|Select-Object -First 1
+  if(!$item){Start-Sleep -Milliseconds 80}
+ }while(!$item-and[DateTime]::UtcNow-lt$until)
  if(!$item){throw "Scale $Percent is not a standard option on this display"}
  $item.GetCurrentPattern([Windows.Automation.SelectionItemPattern]::Pattern).Select()
  $until=[DateTime]::UtcNow.AddSeconds(8)

@@ -1,0 +1,74 @@
+1391 selection=2 body=0.000 pivot=0.000
+2578 selection=3 body=1161.203 pivot=920.000
+3172 selection=4 body=1611.184 pivot=1380.000
+3766 selection=5 body=2071.414 pivot=1840.000
+6719 selection=4 body=2059.740 pivot=2300.000
+7313 selection=3 body=1607.455 pivot=1840.000
+7922 selection=2 body=1138.161 pivot=1380.000
+10375 selection=0 body=920.000 pivot=920.000
+11235 focus selected=0 direction=6 state=1 cancel=0 target=SwitchAction
+13500 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+15219 selection=5 body=0.000 pivot=0.000
+15719 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+20235 selection=0 body=0.000 pivot=2300.000
+20235 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+20297 selection=1 body=460.000 pivot=2300.000
+20297 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+20438 selection=2 body=920.000 pivot=460.000
+20438 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+20547 selection=3 body=1380.000 pivot=920.000
+20547 focus selected=3 direction=6 state=1 cancel=0 target=
+20672 selection=4 body=1840.000 pivot=1380.000
+20672 focus selected=4 direction=6 state=1 cancel=0 target=
+20797 selection=5 body=2300.000 pivot=1840.000
+20797 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+20985 selection=4 body=1840.000 pivot=2300.000
+20985 focus selected=4 direction=6 state=1 cancel=0 target=
+21110 selection=3 body=1380.000 pivot=1840.000
+21110 focus selected=3 direction=6 state=1 cancel=0 target=
+21235 selection=2 body=920.000 pivot=1380.000
+21235 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+21360 selection=1 body=460.000 pivot=920.000
+21360 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+21485 selection=0 body=0.000 pivot=460.000
+21485 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+21578 selection=5 body=2300.000 pivot=460.000
+21578 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+21625 selection=0 body=0.000 pivot=2300.000
+21625 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+21657 selection=4 body=0.000 pivot=2300.000
+22141 focus selected=4 direction=6 state=1 cancel=0 target=
+22172 selection=1 body=1840.000 pivot=1840.000
+22672 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+22703 selection=5 body=460.000 pivot=460.000
+23188 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+23203 selection=0 body=2300.000 pivot=2300.000
+23703 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton
+23735 selection=2 body=0.000 pivot=0.000
+24250 selection=5 body=919.999 pivot=920.000
+24282 selection=1 body=939.578 pivot=920.000
+24313 selection=3 body=955.406 pivot=920.000
+24828 focus selected=3 direction=6 state=1 cancel=0 target=
+25219 selection=2 body=1380.000 pivot=1380.000
+25719 focus selected=2 direction=6 state=1 cancel=0 target=ComboInput
+26266 selection=3 body=920.000 pivot=920.000
+26766 focus selected=3 direction=6 state=1 cancel=0 target=
+26797 focus selected=3 direction=6 state=3 cancel=1 target=TextInput
+27047 selection=1 body=1380.000 pivot=1380.000
+27547 focus selected=1 direction=6 state=1 cancel=0 target=TextInput
+27563 selection=5 body=460.000 pivot=460.000
+28063 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+28625 selection=4 body=2300.000 pivot=2300.000
+29657 selection=1 body=1840.000 pivot=1840.000
+30344 focus selected=1 direction=6 state=3 cancel=0 target=HeaderClipper
+30344 focus selected=1 direction=6 state=2 cancel=0 target=TextInput
+30516 selection=2 body=460.000 pivot=460.000
+31016 focus selected=2 direction=6 state=2 cancel=0 target=ComboInput
+31297 selection=3 body=920.000 pivot=920.000
+31797 focus selected=3 direction=6 state=2 cancel=0 target=
+32110 selection=2 body=1380.000 pivot=1380.000
+32610 focus selected=2 direction=6 state=2 cancel=0 target=ComboInput
+32766 selection=5 body=920.000 pivot=920.000
+33266 focus selected=5 direction=6 state=1 cancel=0 target=TogglePaneButton
+33922 selection=0 body=2300.000 pivot=2300.000
+34438 focus selected=0 direction=6 state=1 cancel=0 target=ActionButton

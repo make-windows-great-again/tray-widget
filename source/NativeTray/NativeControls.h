@@ -5,6 +5,7 @@
 #include <winrt/Windows.UI.Xaml.Controls.Primitives.h>
 #include <winrt/Windows.UI.Xaml.Markup.h>
 #include <winrt/Windows.UI.Xaml.Automation.h>
+#include "NativePageStrip.h"
 
 // A sample client of NativeFlyout, not part of the shell patch. Every widget is
 // a real OS control with its own input handling and AutomationPeer.
@@ -49,7 +50,9 @@ inline c::Grid Create(){
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" RowSpacing="12">
  <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
  <TextBlock Text="Элементы управления Windows" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="Wrap"/>
- <Pivot x:Name="ControlPages" Grid.Row="1" Height="440" Margin="-12,0,-12,0" AutomationProperties.Name="Каталог элементов управления">
+ <Grid Grid.Row="1" Height="440" Margin="-12,0,-12,0">
+  <Grid.RowDefinitions><RowDefinition Height="48"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+ <Pivot x:Name="ControlPages" Height="48" IsHeaderItemsCarouselEnabled="False" AutomationProperties.Name="Каталог элементов управления">
   <PivotItem Header="Кнопки">
    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
     <StackPanel Spacing="16" Margin="0,8,8,12">
@@ -123,8 +126,13 @@ inline c::Grid Create(){
    </NavigationView>
   </PivotItem>
  </Pivot>
+ <ScrollViewer x:Name="ControlPagesViewport" Grid.Row="1" Background="Transparent" BringIntoViewOnFocusChange="False" HorizontalScrollMode="Enabled" HorizontalScrollBarVisibility="Hidden" VerticalScrollMode="Disabled" VerticalScrollBarVisibility="Disabled" ZoomMode="Disabled" HorizontalSnapPointsType="Mandatory" HorizontalSnapPointsAlignment="Near" IsHorizontalScrollChainingEnabled="False" IsTabStop="False" AutomationProperties.Name="Страницы элементов управления">
+  <StackPanel x:Name="ControlPageStrip" Orientation="Horizontal" AreScrollSnapPointsRegular="True"/>
+ </ScrollViewer>
+ </Grid>
  <TextBlock x:Name="ActionStatus" Grid.Row="2" Text="Готово" TextWrapping="Wrap" Style="{StaticResource CaptionTextBlockStyle}" AutomationProperties.LiveSetting="Polite" AutomationProperties.AutomationId="ActionStatus"/>
 </Grid>)XAML").as<c::Grid>();
+    PageStrip::Attach(root,root.FindName(L"ControlPages").as<c::Pivot>(),root.FindName(L"ControlPagesViewport").as<c::ScrollViewer>(),root.FindName(L"ControlPageStrip").as<c::StackPanel>());
     auto state=std::make_shared<State>();state->root=root;state->status=root.FindName(L"ActionStatus").as<c::TextBlock>();
     auto click=[state](auto const&,auto const&) noexcept {state->Record(L"Действие выполнено");};
     root.FindName(L"ActionButton").as<c::Button>().Click(click);
