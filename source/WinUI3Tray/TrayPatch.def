@@ -1,0 +1,5 @@
+LIBRARY "YataWinUI3Tray.Patch.dll"
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE
+    NativeTrayHook

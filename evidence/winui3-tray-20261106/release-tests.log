@@ -1,0 +1,102 @@
+
+  WinUI3Tray.vcxproj -> C:\Users\Yata\Desktop\Download\project\bin\WinUI3Tray\Release\YataWinUI3Tray.exe
+TrayPatch.cpp
+   Creating library C:\Users\Yata\Desktop\Download\project\artifacts\winui3-patch-obj\Release\YataWinUI3Tray.Patch.lib and object C:\Users\Yata\Desktop\Download\project\artifacts\winui3-patch-obj\Release\YataWinUI3Tray.Patch.exp
+PatchSelfTest.cpp
+PASS VPN reserves 44 DIP
+PASS a single owned tooltip is registered above the decorated icon
+PASS tooltip is anchored to the complete tray button
+PASS tooltip keeps native caption typography and padding
+PASS tooltip inherits the shell palette from its owner resource scope
+PASS label uses a real XAML TextBlock
+PASS native ContentGrid identity and transform target are preserved
+PASS replacement leaves pointer handling to outer control
+PASS VPN measures and arranges at 44 DIP
+PASS speed mode reserves 104 DIP
+PASS speed mode contains two text rows
+PASS caption metrics and separate direction/number/unit columns
+PASS numeric column uses tabular figures
+PASS native presenter foreground propagates to custom text
+PASS open panel owns a separate selected background without intercepting clicks
+PASS selected normal hover and pressed states have separate native brushes
+PASS closing restores native hover chrome and foreground
+PASS repeated open close retains the original native highlight
+PASS original tooltip is restored on mode restoration
+PASS original content object is restored
+PASS original ContentGrid children are restored
+PASS original local dimensions and unset values are restored
+PASS original alignment local value is restored
+PASS arbitrary requested native width is applied
+PASS live resized slot has the requested arranged width
+PASS width change preserves content, chrome and tooltip identity
+PASS live resized slot has the requested arranged width
+PASS width change preserves content, chrome and tooltip identity
+PASS live resized slot has the requested arranged width
+PASS width change preserves content, chrome and tooltip identity
+PASS live resized slot has the requested arranged width
+PASS width change preserves content, chrome and tooltip identity
+PASS live resized slot has the requested arranged width
+PASS width change preserves content, chrome and tooltip identity
+PASS invalid resize preserves the previous decoration
+PASS automatic width follows XAML measurement
+PASS automatic width grows with the text content
+PASS unrelated element stays unchanged
+PASS original Content binding is restored
+PASS repeated mode switches retain the original binding
+PASS owned tooltip opens without an automatic pointer placement
+tooltip width=44 DIP anchorTop=1528 popup=2079,1465,2308,1511
+PASS opening a loaded tooltip creates exactly one visible native popup
+PASS visible tooltip including its shadow stays above the taskbar in the work area
+PASS tooltip remains centered over the complete tray button
+PASS owned tooltip opens without an automatic pointer placement
+tooltip width=88 DIP anchorTop=1528 popup=2112,1465,2341,1511
+PASS opening a loaded tooltip creates exactly one visible native popup
+PASS visible tooltip including its shadow stays above the taskbar in the work area
+PASS tooltip remains centered over the complete tray button
+PASS owned tooltip opens without an automatic pointer placement
+tooltip width=160 DIP anchorTop=1528 popup=2166,1465,2395,1511
+PASS opening a loaded tooltip creates exactly one visible native popup
+PASS visible tooltip including its shadow stays above the taskbar in the work area
+PASS tooltip remains centered over the complete tray button
+PASS controller fixture uses a loaded real XAML owner
+PASS an expired diagnostics handle does not disable a healthy decoration
+PASS removing the owner enters event-driven discovery
+PASS expired handles during discovery do not abort the subscription
+PASS a valid Add after an expired handle still discovers the real XAML owner
+PASS stale subscription callbacks never resolve objects in a new generation
+PASS unexpected diagnostics failures remain contained and restore the original owner
+PASS a new framework session leaves legacy application timers untouched
+PASS event controller applies the initial request without polling
+PASS idle controller performs zero periodic refreshes
+PASS mode and target width apply as a single acknowledged snapshot
+PASS one thousand queued visual events coalesce into bounded updates
+PASS open state activates native selected chrome through notifications
+PASS an exception at the window boundary disables only the decorator
+PASS fault containment restores the original XAML content and chrome
+PASS a fault does not enter a reapply loop
+PASS disconnect releases subscriptions, waits, timers and the session mapping
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS repeated attach/detach restores resources and original bindings
+PASS an unloaded owner releases its decoration without polling
+PASS Loaded rediscovers the same owner after it re-enters the tree
+PASS a signalled owner wait schedules cleanup on the XAML thread
+All XAML integration checks passed. Explorer was not loaded or modified by this test.
+WinUI 3 client and separate native patch: C:\Users\Yata\Desktop\Download\project\bin\WinUI3Tray\Release

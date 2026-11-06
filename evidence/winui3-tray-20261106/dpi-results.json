@@ -1,0 +1,34 @@
+{
+  "InitialScale": 150,
+  "FinalDpi": 144,
+  "Cases": [
+    {
+      "Scale": 100,
+      "Dpi": 96,
+      "Passed": true,
+      "Checks": 27,
+      "Directory": "accepted-100"
+    },
+    {
+      "Scale": 150,
+      "Dpi": 144,
+      "Passed": true,
+      "Checks": 27,
+      "Directory": "accepted-150"
+    },
+    {
+      "Scale": 200,
+      "Dpi": 192,
+      "Passed": true,
+      "Checks": 27,
+      "Directory": "accepted-200"
+    },
+    {
+      "Scale": 250,
+      "Dpi": 240,
+      "Passed": true,
+      "Checks": 27,
+      "Directory": "accepted-250"
+    }
+  ]
+}

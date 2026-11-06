@@ -1,13 +1,22 @@
 # tray-widget
 
 Нативный C++20 / C++/WinRT каркас для панелей и элементов управления Windows 11.
-Runtime состоит из **одного EXE и одного patch DLL**. Схемы Language, Quick
+Исходный runtime на Windows.UI.Xaml состоит из **одного EXE и одного patch DLL**. Схемы Language, Quick
 Settings и Date собраны в отдельную статическую `ShellPanels.lib`; пример
 `ShellBench` использует её без подключения к Explorer.
 
 Проект находится в разработке. Совпадение с Windows проверяется на конкретном
 профиле Windows 11 24H2 (26100.9711); полного соответствия всем состояниям Shell
 пока нет. Открытые пункты и результаты проверок сохранены вместе с кодом.
+
+В `source/WinUI3Tray` добавлен отдельный **C++ / WinUI 3 прототип**: VPN-виджет
+с изменяемой шириной, панель Hello World, нативные WinUI 3 Slider и MenuFlyout,
+светлая/тёмная темы и анимация открытия/закрытия. Для него адаптирован отдельный
+patch DLL с собственным протоколом; старый runtime не заменяется.
+[Архитектура, зависимости и запуск](source/WinUI3Tray/README.txt),
+[результаты проверок](evidence/winui3-tray-20261106/REPORT.txt).
+Запуск после сборки: `Start-WinUI3-Tray.cmd`. Эта версия включает self-contained
+Windows App SDK и требует дополнительных файлов Microsoft рядом с EXE/DLL.
 
 Скачать runtime и SDK: [v16](https://github.com/make-windows-great-again/tray-widget/releases/tag/v16).
 В `main` после v16 исправлена обработка исчезнувших XAML Diagnostics handles в

@@ -33,3 +33,11 @@
 !/evidence/shell-parity-26100/dpi-v16/acceptance.csv
 !/evidence/shell-parity-26100/dpi-v16/comparison.html
 !/evidence/shell-parity-26100/dpi-v16/REPORT.txt
+# Initial WinUI compiler output; current builds generate under artifacts.
+/source/WinUI3Tray/Generated Files/
+/evidence/winui3-tray-20261106/*
+!/evidence/winui3-tray-20261106/accepted-*/
+!/evidence/winui3-tray-20261106/dpi-results.json
+!/evidence/winui3-tray-20261106/REPORT.txt
+!/evidence/winui3-tray-20261106/release-tests.log
+!/evidence/winui3-tray-20261106/packages.json

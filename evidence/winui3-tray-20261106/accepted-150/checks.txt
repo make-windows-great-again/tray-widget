@@ -1,0 +1,27 @@
+WinUI 3 host created
+client loads the actual WinUI 3 runtime
+Hello World is visible through UI Automation
+new patch applies 88 DIP in Explorer
+native WinUI slider exposes AutomationId
+UIA slider updates the width request
+width 32 applied
+width 320 applied
+width 64 applied
+width 88 applied
+width 0 applied
+width 144 applied
+invalid width is rejected
+rejected command does not modify width
+light theme stays visible
+dark theme stays visible
+eight complete hide/show cycles
+owned panel has foreground before keyboard test
+Escape dismisses WinUI content
+patch reports a nonempty tray target
+real left click on patched tray opens Hello World
+second real tray click closes Hello World
+context menu does not show the Hello World card
+WinUI context menu is visible
+context action changes width and closes its host
+no patch callback failures
+exit detaches decoration and stops the client

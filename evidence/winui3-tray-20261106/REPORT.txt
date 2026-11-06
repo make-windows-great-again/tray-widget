@@ -1,0 +1,86 @@
+WinUI 3 tray prototype acceptance — 2026-11-06
+===========================================
+
+Scope
+-----
+New native C++/WinRT client, genuine Microsoft.UI.Xaml WinUI 3 controls,
+Hello World flyout, configurable tray width and a separately adapted patch DLL.
+No VPN/network operations. Existing NativeTray runtime remains unchanged.
+No Explorer restart, runtime installation, service or startup registration.
+
+Architecture
+------------
+Client: Windows App SDK 2.6.5, C++/WinRT 3.0.260818.1, self-contained x64.
+Explorer bridge: Explorer's own Windows.UI.Xaml with isolated v1 IPC/GUIDs.
+The bridge reuses the event backend/chrome/tooltip source and changes width
+without destroying and recreating the decorated content. This is a change to
+the DLL, not just a replacement popup in the old EXE.
+Each accepted case records the actual loaded Microsoft.UI.Xaml module and
+SHA256 of both own binaries. Package versions/hashes are in packages.json.
+
+Checks
+------
+Release build: MSVC v145, C++20, /W4 /WX; release-tests.log.
+92 isolated patch integration checks passed, including:
+  - same-content/chrome/tooltip identity across 32/320/64/144/88 DIP;
+  - rejected invalid width retains the decoration;
+  - restoring original values and bindings;
+  - repeated attachment/detachment, unloaded owner and stale diagnostic handles;
+  - cleanup after the owner process signals, without a polling loop.
+
+Live GUI acceptance on Windows 11 24H2 build 26100:
+  100% / 96 DPI:  27 checks, passed.
+  150% / 144 DPI: 27 checks, passed.
+  200% / 192 DPI: 27 checks, passed.
+  250% / 240 DPI: 27 checks, passed.
+Both light and dark are exercised in every case. The system scale was actually
+changed using Display Settings, not simulated by changing a window size.
+Initial scale 150%; finally restored to 150% (144 DPI), see dpi-results.json.
+
+Every live case verifies loaded WinUI 3, UIA Hello World and Slider, real arranged
+tray width after both UIA and CLI changes, auto width, invalid input rejection,
+eight hide/show cycles, Escape, actual left tray click and second-click toggle,
+actual right tray click opening the WinUI MenuFlyout, a menu width action,
+zero patch callback failures, clean process exit and removed decoration.
+The input is programmatically injected mouse/keyboard input, not a physical
+touchpad exercise. This prototype has no gallery swipe surface.
+
+Visual evidence
+---------------
+accepted-*/light.png and dark.png: actual screen captures at each scale.
+The harness places its own neutral window behind the panel for capture;
+parts of the Display Settings test window are also visible near some edges.
+accepted-150/panel.mp4: cropped screen recording of controls and repeated
+opening/closing. The crop includes room for anchor movement after width changes.
+recording-metadata.json and recorder.log preserve capture properties/diagnostics.
+DDAGrab requested 120 fps on a 240 Hz display; the final recording contains
+537 frames over 7.7 seconds, about 69.7 fps on average. It has variable cadence
+and timestamp warnings; it is qualitative motion evidence, not proof of a
+240 fps render cadence or pixel-perfect Shell timing. Timing warnings are kept.
+
+Resolved during implementation
+------------------------------
+A focus handoff initially recursively called NavigateFocus and overflowed the
+stack. It was removed; the content uses keyboard focus cycling, and initial
+focus is set only after the opening animation completes. Menu-only dismissal
+enters the closing phase before hiding MenuFlyout, preventing callback recursion.
+
+The first exploratory live run observed 188 DIP when its test expected 88 DIP;
+its cause was not conclusively identified. Subsequent explicit-width acceptance
+passed all scales. A separate exploratory capture lost foreground; capture now
+opens and clicks its own panel and rejects images if another window owns focus.
+Exploratory files remain local and are not presented as accepted evidence.
+
+Limits
+------
+This does not port the old gallery or Language/Quick Settings/Date panels.
+There is no VPN provider, persisted settings or independently timed width
+animation. Multi-monitor transitions, high contrast, increased text size,
+Explorer restart recovery and other OS builds are not accepted by this run.
+The Shell integration depends on Explorer internals. WinUI 3 is used for the
+client; Windows.UI.Xaml is still necessary for the current Explorer bridge.
+The accepted package has two own runtime binaries plus Microsoft runtime and
+resource files; it is not a two-file self-contained WinUI 3 distribution.
+After exit, XAML Diagnostics can retain the inactive patch module in Explorer
+until Explorer ends naturally. Closing removes the widget/decoration; it does
+not forcibly unload the module or restart Explorer.
